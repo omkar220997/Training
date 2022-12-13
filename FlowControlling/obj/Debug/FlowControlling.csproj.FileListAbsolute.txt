@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\bin\Debug\FlowControlling.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\bin\Debug\FlowControlling.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\bin\Debug\FlowControlling.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\obj\Debug\FlowControlling.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\obj\Debug\FlowControlling.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\obj\Debug\FlowControlling.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\obj\Debug\FlowControlling.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\obj\Debug\FlowControlling.pdb

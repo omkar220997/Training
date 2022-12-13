@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\SwitchStatement\bin\Debug\SwitchStatement.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\SwitchStatement\bin\Debug\SwitchStatement.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\SwitchStatement\bin\Debug\SwitchStatement.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\SwitchStatement\obj\Debug\SwitchStatement.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\SwitchStatement\obj\Debug\SwitchStatement.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\SwitchStatement\obj\Debug\SwitchStatement.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\SwitchStatement\obj\Debug\SwitchStatement.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\SwitchStatement\obj\Debug\SwitchStatement.pdb

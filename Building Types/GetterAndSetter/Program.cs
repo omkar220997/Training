@@ -8,6 +8,7 @@ namespace GetterAndSetter
 {
     public class Employee
     {
+        public const int salary=25000;
         private string name;
         private int age;
         public readonly string company;
@@ -15,6 +16,7 @@ namespace GetterAndSetter
         {
             company = "Klingelnberg";
             Console.WriteLine("Company name of employees is " + company);
+            Console.WriteLine("Salary of employee is " + salary);
         }
         
         

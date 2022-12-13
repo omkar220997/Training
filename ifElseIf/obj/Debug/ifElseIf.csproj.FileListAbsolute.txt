@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\ifElseIf\obj\Debug\ifElseIf.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\ifElseIf\obj\Debug\ifElseIf.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\ifElseIf\obj\Debug\ifElseIf.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\ifElseIf\bin\Debug\ifElseIf.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\ifElseIf\bin\Debug\ifElseIf.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\ifElseIf\bin\Debug\ifElseIf.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\ifElseIf\obj\Debug\ifElseIf.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\ifElseIf\obj\Debug\ifElseIf.pdb

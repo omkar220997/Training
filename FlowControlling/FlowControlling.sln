@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowControlling", "FlowCont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ifElseIf", "..\ifElseIf\ifElseIf.csproj", "{6D34E9C2-C12E-469C-A4C1-054AC0B6569E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedIfElse", "..\NestedIfElse\NestedIfElse.csproj", "{4A99B069-CC8E-4EE4-8188-754AA22DC8A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6D34E9C2-C12E-469C-A4C1-054AC0B6569E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D34E9C2-C12E-469C-A4C1-054AC0B6569E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D34E9C2-C12E-469C-A4C1-054AC0B6569E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A99B069-CC8E-4EE4-8188-754AA22DC8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A99B069-CC8E-4EE4-8188-754AA22DC8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A99B069-CC8E-4EE4-8188-754AA22DC8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A99B069-CC8E-4EE4-8188-754AA22DC8A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

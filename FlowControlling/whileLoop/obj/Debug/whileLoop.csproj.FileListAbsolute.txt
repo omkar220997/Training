@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\whileLoop\bin\Debug\whileLoop.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\whileLoop\bin\Debug\whileLoop.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\whileLoop\bin\Debug\whileLoop.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\whileLoop\obj\Debug\whileLoop.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\whileLoop\obj\Debug\whileLoop.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\whileLoop\obj\Debug\whileLoop.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\whileLoop\obj\Debug\whileLoop.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\whileLoop\obj\Debug\whileLoop.pdb

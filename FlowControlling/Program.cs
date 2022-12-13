@@ -24,6 +24,10 @@ namespace FlowControlling
             {
                 Console.WriteLine($" The employee id of {name} is {id}");
             }
+            else
+            {
+                Console.WriteLine("Enter a Valid data of employee");
+            }
         }
     }
     public class Program

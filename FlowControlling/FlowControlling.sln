@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedIfElse", "..\NestedIf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whileLoop", "whileLoop\whileLoop.csproj", "{456CA8D9-BFC5-4195-B882-3CC4D641380E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doWhileLoop", "doWhileLoop\doWhileLoop.csproj", "{B90B7F43-AC09-4C32-8579-7896AF69A165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{456CA8D9-BFC5-4195-B882-3CC4D641380E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{456CA8D9-BFC5-4195-B882-3CC4D641380E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{456CA8D9-BFC5-4195-B882-3CC4D641380E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90B7F43-AC09-4C32-8579-7896AF69A165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90B7F43-AC09-4C32-8579-7896AF69A165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90B7F43-AC09-4C32-8579-7896AF69A165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90B7F43-AC09-4C32-8579-7896AF69A165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

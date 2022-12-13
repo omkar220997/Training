@@ -9,8 +9,15 @@ namespace GetterAndSetter
     public class Employee
     {
         private string name;
-        private int age ;
-
+        private int age;
+        public readonly string company;
+        public Employee()
+        {
+            company = "Klingelnberg";
+            Console.WriteLine("Company name of employees is " + company);
+        }
+        
+        
         public string Name
         {
             get;
@@ -29,15 +36,18 @@ namespace GetterAndSetter
     {
         static void Main(string[] args)
         {
+            
             Employee employee1 = new Employee();
             Employee employee2 = new Employee();
             Employee employee3 = new Employee();
             employee1.Name = "Prasad";
             employee1.Age = 25;
+            
             employee2.Name = "Pankaj";
             employee2.Age = 27;
             employee3.Name = "Kunal";
             employee3.Age = 32;
+           
             Console.WriteLine($"Name of the employee1 is {employee1.Name}");
             Console.WriteLine($"Age of the employee1 is {employee1.Age}");
             Console.WriteLine($"Name of the employee2 is {employee2.Name}");

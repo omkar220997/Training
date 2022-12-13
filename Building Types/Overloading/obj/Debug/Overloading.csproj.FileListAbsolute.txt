@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Overloading\bin\Debug\Overloading.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Overloading\bin\Debug\Overloading.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Overloading\bin\Debug\Overloading.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Overloading\obj\Debug\Overloading.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Overloading\obj\Debug\Overloading.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Overloading\obj\Debug\Overloading.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Overloading\obj\Debug\Overloading.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Overloading\obj\Debug\Overloading.pdb

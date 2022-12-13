@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\ForEachLoop\bin\Debug\ForEachLoop.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\ForEachLoop\bin\Debug\ForEachLoop.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\ForEachLoop\bin\Debug\ForEachLoop.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\ForEachLoop\obj\Debug\ForEachLoop.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\ForEachLoop\obj\Debug\ForEachLoop.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\ForEachLoop\obj\Debug\ForEachLoop.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\ForEachLoop\obj\Debug\ForEachLoop.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\FlowControlling\ForEachLoop\obj\Debug\ForEachLoop.pdb

@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Delegates\bin\Debug\Delegates.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Delegates\bin\Debug\Delegates.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Delegates\bin\Debug\Delegates.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Delegates\obj\Debug\Delegates.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Delegates\obj\Debug\Delegates.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Delegates\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Delegates\obj\Debug\Delegates.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Building Types\Delegates\obj\Debug\Delegates.pdb

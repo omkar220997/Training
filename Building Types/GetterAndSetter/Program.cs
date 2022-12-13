@@ -49,7 +49,8 @@ namespace GetterAndSetter
             employee2.Age = 27;
             employee3.Name = "Kunal";
             employee3.Age = 32;
-           
+
+            
             Console.WriteLine($"Name of the employee1 is {employee1.Name}");
             Console.WriteLine($"Age of the employee1 is {employee1.Age}");
             Console.WriteLine($"Name of the employee2 is {employee2.Name}");

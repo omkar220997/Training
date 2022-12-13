@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading", "Overloading.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterAndSetter", "..\GetterAndSetter\GetterAndSetter.csproj", "{848120F9-3A4B-4521-B74D-85392320FA1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "..\Delegates\Delegates.csproj", "{572A9CD9-EBC6-4F74-A6E4-0B95A5E8C2F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{848120F9-3A4B-4521-B74D-85392320FA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{848120F9-3A4B-4521-B74D-85392320FA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{848120F9-3A4B-4521-B74D-85392320FA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572A9CD9-EBC6-4F74-A6E4-0B95A5E8C2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572A9CD9-EBC6-4F74-A6E4-0B95A5E8C2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572A9CD9-EBC6-4F74-A6E4-0B95A5E8C2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572A9CD9-EBC6-4F74-A6E4-0B95A5E8C2F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

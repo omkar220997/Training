@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\RefType\bin\Debug\RefType.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\RefType\bin\Debug\RefType.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\RefType\bin\Debug\RefType.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\RefType\obj\Debug\RefType.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\RefType\obj\Debug\RefType.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\RefType\obj\Debug\RefType.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\RefType\obj\Debug\RefType.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\RefType\obj\Debug\RefType.pdb

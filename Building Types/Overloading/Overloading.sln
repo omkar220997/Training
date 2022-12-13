@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading", "Overloading.csproj", "{E5F10C9A-6B71-45DF-8236-A6D7BC57B8B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterAndSetter", "..\GetterAndSetter\GetterAndSetter.csproj", "{848120F9-3A4B-4521-B74D-85392320FA1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E5F10C9A-6B71-45DF-8236-A6D7BC57B8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5F10C9A-6B71-45DF-8236-A6D7BC57B8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5F10C9A-6B71-45DF-8236-A6D7BC57B8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848120F9-3A4B-4521-B74D-85392320FA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848120F9-3A4B-4521-B74D-85392320FA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848120F9-3A4B-4521-B74D-85392320FA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848120F9-3A4B-4521-B74D-85392320FA1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

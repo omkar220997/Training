@@ -13,33 +13,15 @@ namespace GetterAndSetter
 
         public string Name
         {
-            get 
-            { 
-                return name;
-            }
-            set
-            {
-                if (!string.IsNullOrEmpty(value)) 
-                {
-                    name = value;
-                }
-                
-            }
+            get;
+            set;
 
         }
         public int Age
         {
-            get
-            {
-                return age;
-            }
-            set
-            {
-                if(value > 0) 
-                { 
-                    age = value;
-                }
-            }
+            get;
+            set;
+            
         }
 
     }
@@ -47,11 +29,21 @@ namespace GetterAndSetter
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            employee.Name = "Prasad";
-            employee.Age = 25;
-            Console.WriteLine($"Name of the employee is {employee.Name}");
-            Console.WriteLine($"Age of the employee is {employee.Age}");
+            Employee employee1 = new Employee();
+            Employee employee2 = new Employee();
+            Employee employee3 = new Employee();
+            employee1.Name = "Prasad";
+            employee1.Age = 25;
+            employee2.Name = "Pankaj";
+            employee2.Age = 27;
+            employee3.Name = "Kunal";
+            employee3.Age = 32;
+            Console.WriteLine($"Name of the employee1 is {employee1.Name}");
+            Console.WriteLine($"Age of the employee1 is {employee1.Age}");
+            Console.WriteLine($"Name of the employee2 is {employee2.Name}");
+            Console.WriteLine($"Age of the employee2 is {employee2.Age}");
+            Console.WriteLine($"Name of the employee3 is {employee3.Name}");
+            Console.WriteLine($"Age of the employee3 is {employee3.Age}");
             Console.ReadLine();
         }
     }

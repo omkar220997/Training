@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method4\bin\Debug\Method4.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method4\bin\Debug\Method4.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method4\bin\Debug\Method4.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method4\obj\Debug\Method4.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method4\obj\Debug\Method4.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method4\obj\Debug\Method4.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method4\obj\Debug\Method4.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method4\obj\Debug\Method4.pdb

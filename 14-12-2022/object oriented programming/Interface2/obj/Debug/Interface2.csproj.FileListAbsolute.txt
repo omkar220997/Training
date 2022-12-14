@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Interface2\obj\Debug\Interface2.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Interface2\obj\Debug\Interface2.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Interface2\obj\Debug\Interface2.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Interface2\bin\Debug\Interface2.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Interface2\bin\Debug\Interface2.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Interface2\bin\Debug\Interface2.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Interface2\obj\Debug\Interface2.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Interface2\obj\Debug\Interface2.pdb

@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace InheritanceWithConstructors
 {
-    public class Shape
+    public class Rectangle
     {
         double lenght;
         double widht;
        
+        public Rectangle ( double l , double b)
+        {
+            Lenght = l;
+            widht = b;
+        }
 
         public double Lenght
         {
@@ -25,26 +30,22 @@ namespace InheritanceWithConstructors
        
     }
 
-    public class Cuboid : Shape
+    public class Area : Rectangle
     {
-        double height;
-        public double Height
+
+        double area;
+
+        public Area( double l, double b) : base(l,b)
         {
-            get { return height; }
-            set { height = value; }
+            area = l * b;  
         }
 
-        public Cuboid(double l , double b , double h)
+        public double Ar()
         {
-            Lenght = l;
-            Widht = b;
-            Height = h;
+            return area;
         }
 
-        public double Volume()
-        {
-            return Lenght*Widht*height;
-        }
+        
 
 
     }
@@ -53,12 +54,12 @@ namespace InheritanceWithConstructors
     {
         static void Main(string[] args)
         {
-            Cuboid cube = new Cuboid(10,8,5);
-            cube.Volume();
-            Console.WriteLine("Lenght of cuboid is " + cube.Lenght);
-            Console.WriteLine("Width of cuboid is " + cube.Widht);
-            Console.WriteLine("Height of cuboid is " + cube.Height);
-            Console.WriteLine("Volume of cuboid is " + cube.Volume());
+            Area a = new Area(10,8);
+            a.Ar();
+            Console.WriteLine("Lenght of Rectangle is " + a.Lenght);
+            Console.WriteLine("Width of Rectangle is " + a.Widht);
+           
+            Console.WriteLine("Area of Rectangle is " + a.Ar());
             Console.ReadLine();
         }
     }

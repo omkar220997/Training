@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\HierarchicalInheritance\bin\Debug\HierarchicalInheritance.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\HierarchicalInheritance\bin\Debug\HierarchicalInheritance.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\HierarchicalInheritance\bin\Debug\HierarchicalInheritance.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\HierarchicalInheritance\obj\Debug\HierarchicalInheritance.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\HierarchicalInheritance\obj\Debug\HierarchicalInheritance.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\HierarchicalInheritance\obj\Debug\HierarchicalInheritance.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\HierarchicalInheritance\obj\Debug\HierarchicalInheritance.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\HierarchicalInheritance\obj\Debug\HierarchicalInheritance.pdb

@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Abstraction2\bin\Debug\Abstraction2.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Abstraction2\bin\Debug\Abstraction2.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Abstraction2\bin\Debug\Abstraction2.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Abstraction2\obj\Debug\Abstraction2.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Abstraction2\obj\Debug\Abstraction2.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Abstraction2\obj\Debug\Abstraction2.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Abstraction2\obj\Debug\Abstraction2.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\object oriented programming\Abstraction2\obj\Debug\Abstraction2.pdb

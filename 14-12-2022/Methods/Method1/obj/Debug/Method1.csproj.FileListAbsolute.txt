@@ -6,3 +6,11 @@ C:\Users\kada_omk\Desktop\Training\14-12-2022\Methods\Method1\obj\Debug\Method1.
 C:\Users\kada_omk\Desktop\Training\14-12-2022\Methods\Method1\obj\Debug\Method1.csproj.CoreCompileInputs.cache
 C:\Users\kada_omk\Desktop\Training\14-12-2022\Methods\Method1\obj\Debug\Method1.exe
 C:\Users\kada_omk\Desktop\Training\14-12-2022\Methods\Method1\obj\Debug\Method1.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method1\bin\Debug\Method1.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method1\bin\Debug\Method1.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method1\bin\Debug\Method1.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method1\obj\Debug\Method1.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method1\obj\Debug\Method1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method1\obj\Debug\Method1.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method1\obj\Debug\Method1.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\Method1\obj\Debug\Method1.pdb

@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\MethodWithNoReturn\bin\Debug\MethodWithNoReturn.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\MethodWithNoReturn\bin\Debug\MethodWithNoReturn.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\MethodWithNoReturn\bin\Debug\MethodWithNoReturn.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\MethodWithNoReturn\obj\Debug\MethodWithNoReturn.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\MethodWithNoReturn\obj\Debug\MethodWithNoReturn.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\MethodWithNoReturn\obj\Debug\MethodWithNoReturn.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\MethodWithNoReturn\obj\Debug\MethodWithNoReturn.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Methods\MethodWithNoReturn\obj\Debug\MethodWithNoReturn.pdb

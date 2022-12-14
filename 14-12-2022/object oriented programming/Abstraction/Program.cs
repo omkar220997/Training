@@ -29,6 +29,11 @@ namespace Abstraction
         public string Call { get; set; }
         public string Game { get; set; }
 
+        //public override void Number(long value)
+        //{
+        //    Console.WriteLine("Calling number is " + value);
+        //}
+
         public Feacture(string music, string call, string game)
         {
             this.music = music;

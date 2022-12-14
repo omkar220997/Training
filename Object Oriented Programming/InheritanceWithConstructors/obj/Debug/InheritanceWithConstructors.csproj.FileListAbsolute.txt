@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\InheritanceWithConstructors\bin\Debug\InheritanceWithConstructors.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\InheritanceWithConstructors\bin\Debug\InheritanceWithConstructors.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\InheritanceWithConstructors\bin\Debug\InheritanceWithConstructors.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\InheritanceWithConstructors\obj\Debug\InheritanceWithConstructors.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\InheritanceWithConstructors\obj\Debug\InheritanceWithConstructors.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\InheritanceWithConstructors\obj\Debug\InheritanceWithConstructors.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\InheritanceWithConstructors\obj\Debug\InheritanceWithConstructors.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\Object Oriented Programming\InheritanceWithConstructors\obj\Debug\InheritanceWithConstructors.pdb

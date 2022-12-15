@@ -10,11 +10,11 @@ namespace SalaryCalculator
     {
         public string NameOfDepartmentHead;
         public double BasicSalary;
-        public int Bonus;
-        public int PaidLeaves;
-        public int NonPaidLeaves;
+        public double Bonus;
+        public double PaidLeaves;
+        public double NonPaidLeaves;
         public double DailyWages;
-        public int MontlySalary;
+        public double MontlySalary;
 
         public void SalaryOfJuniorSoftwareEngineer()
         {

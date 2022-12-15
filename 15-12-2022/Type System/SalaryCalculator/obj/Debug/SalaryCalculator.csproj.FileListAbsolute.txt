@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\SalaryCalculator\bin\Debug\SalaryCalculator.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\SalaryCalculator\bin\Debug\SalaryCalculator.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\SalaryCalculator\bin\Debug\SalaryCalculator.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\SalaryCalculator\obj\Debug\SalaryCalculator.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\SalaryCalculator\obj\Debug\SalaryCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\SalaryCalculator\obj\Debug\SalaryCalculator.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\SalaryCalculator\obj\Debug\SalaryCalculator.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\SalaryCalculator\obj\Debug\SalaryCalculator.pdb

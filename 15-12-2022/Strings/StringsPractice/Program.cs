@@ -10,9 +10,12 @@ namespace StringsPractice
     {
         static void Main(string[] args)
         {
-            Information name = new Information();
-            name.FormDetails();
-            name.ShowDetails();
+            Information details = new Information();
+            details.FormDetails();
+            details.ShowDetails();
+            details.Methods();
+            details.ShowMethodds(); 
+            
             Console.ReadLine();
 
         }

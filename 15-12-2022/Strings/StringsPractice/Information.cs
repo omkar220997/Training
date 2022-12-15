@@ -13,7 +13,12 @@ namespace StringsPractice
         string lastName;
         string email;
         string MobileNumber;
+        int lenght;
+        string FIRSTNAME;
+        string firstname;
+        bool isPresent;
         public void FormDetails()
+
         {
             Console.WriteLine("Enter a first name");
              firstName = Console.ReadLine();
@@ -32,6 +37,20 @@ namespace StringsPractice
             Console.WriteLine("Email is " + email);
             Console.WriteLine("Mobile Number is " + MobileNumber);
 
+        }
+        public void Methods()
+        {
+            lenght=firstName.Length;
+            FIRSTNAME=firstName.ToUpper();
+            firstname=firstName.ToLower();
+            isPresent = firstName.Contains("o");
+        }
+        public void ShowMethodds()
+        {
+            Console.WriteLine(lenght);
+            Console.WriteLine(FIRSTNAME);
+            Console.WriteLine(firstname);
+            Console.WriteLine(isPresent);
         }
     }
 }

@@ -15,12 +15,15 @@ namespace SalaryCalculator
             TeamLeader teamLeader = new TeamLeader();
             SeniorSoftwareEngineer seniorSoftwareEngineer = new SeniorSoftwareEngineer();
             JuniorSoftwareEngineer juniorSoftwareEngineer = new JuniorSoftwareEngineer();
-            Calculator calculator = new Calculator();
-            Console.WriteLine("Type the 'Add','Salary details' to enter details of Employee");
+            AddInfo addInfo = new AddInfo();
+
+            Console.WriteLine("Type the 'Add','Salary Details' to enter details of Employee");
             Console.WriteLine("Type'Quit' to exit from application");
+
             var details = true;
             while (details)
             {
+                
                 var Action = Console.ReadLine();
                
                  
@@ -30,36 +33,57 @@ namespace SalaryCalculator
                     while (details1)
                     {
                         Console.WriteLine("Type the designation of Employee like 'Manager','Department Head','Team Leader','Senior Software Engineer','Junior Software Engineer' to add details");
+                        Console.WriteLine("Type 'Back' for go to main Menu");
                         var Action1 = Console.ReadLine();
 
                         if (Action1 == "Manager")
                         {
-                            calculator.AddManager();
+                            addInfo.AddManager();
                         }
                         else if (Action1 == "Department Head")
                         {
-                            calculator.AddDepartmentHead();
+                            addInfo.AddDepartmentHead();
                         }
                         else if (Action1 == "Team Leader")
                         {
-                            calculator.AddTeamLeader();
+                            addInfo.AddTeamLeader();
                         }
                         else if (Action1 == "Senior Software Engineer")
                         {
-                            calculator.AddSeniorSoftwareEngineer();
+                            addInfo.AddSeniorSoftwareEngineer();
                         }
                         else if (Action1 == "Junior Software Engineer")
                         {
-                            calculator.AddJuniorSoftwareEngineer();
+                            addInfo.AddJuniorSoftwareEngineer();
                         }
-                         
-
+                        else if (Action1 == "Back")
+                        {
+                            details1= false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Enter a valis entry");
+                        }
+                      
                     }
-
+                    Console.WriteLine("Type the 'Add','Salary Details' to enter details of Employee");
+                    Console.WriteLine("Type'Quit' to exit from application");
 
                 }
+                else if (Action == "Salary Details")
+                {
+
+                }
+                else if (Action == "Quit")
+                {
+                    details= false;
+                }
+                else
+                {
+                    Console.WriteLine("Enter a valid Command");
+                }
             }
-            Console.ReadLine();
+           
         }
     }
 }

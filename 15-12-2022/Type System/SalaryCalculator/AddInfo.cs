@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SalaryCalculator
 {
-    public class Calculator
+    public class AddInfo
     {
         public List<Manager> Managers=new List<Manager>();
         public List<DepartmentHead> DepartmentHeads = new List<DepartmentHead>();
@@ -16,7 +16,7 @@ namespace SalaryCalculator
         
         public void AddManager()
         {
-            Calculator calculator = new Calculator();
+            AddInfo addInfo = new AddInfo();
             Console.WriteLine("Name of the Manager is ");
             var nameOfManager=Console.ReadLine();
             Console.WriteLine("Basic Salary of Manager is ");
@@ -51,7 +51,8 @@ namespace SalaryCalculator
         }
         public void AddDepartmentHead()
         {
-            Calculator calculator = new Calculator();
+            AddInfo addInfo = new AddInfo();
+
             Console.WriteLine("Name of the Department Head is ");
             var nameOfDepartmentHead = Console.ReadLine();
             Console.WriteLine("Basic Salary of Department Head is ");
@@ -83,7 +84,8 @@ namespace SalaryCalculator
         }
         public void AddTeamLeader()
         {
-            Calculator calculator = new Calculator();
+            AddInfo addInfo = new AddInfo();
+
             Console.WriteLine("Name of the Team Leader is ");
             var nameOfTeanLeader = Console.ReadLine();
             Console.WriteLine("Basic Salary of Team Leader is ");
@@ -115,7 +117,8 @@ namespace SalaryCalculator
         }
         public void AddSeniorSoftwareEngineer()
         {
-            Calculator calculator = new Calculator();
+            AddInfo addInfo = new AddInfo();
+
             Console.WriteLine("Name of the Senior Software Engineer is ");
             var nameOfSeniorSoftwareEngineer = Console.ReadLine();
             Console.WriteLine("Basic Salary of Senior Software Engineer is ");
@@ -146,7 +149,8 @@ namespace SalaryCalculator
         }
         public void AddJuniorSoftwareEngineer()
         {
-            Calculator calculator = new Calculator();
+            AddInfo addInfo = new AddInfo();
+
             Console.WriteLine("Name of the Junior Software Engineer is ");
             var nameOfJuniorSoftwareEngineer = Console.ReadLine();
             Console.WriteLine("Basic Salary of Junior Software Engineer is ");

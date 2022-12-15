@@ -8,8 +8,8 @@ namespace SalaryCalculator
 {
     public class AddInfo
     {
-        public double dailyWage;
-        public double monthlySalary;
+       // public double dailyWage;
+       // public double monthlySalary;
         public List<Manager> Managers=new List<Manager>();
         public List<DepartmentHead> DepartmentHeads = new List<DepartmentHead>();
         public List<TeamLeader> TeamLeaders= new List<TeamLeader>();
@@ -33,12 +33,10 @@ namespace SalaryCalculator
             Console.WriteLine("Non-Paid leaves of Manager is ");
             string nonPaidLeavesString = Console.ReadLine();
             var nonPaidLeaves = Convert.ToDouble(nonPaidLeavesString);
-            Console.WriteLine("Daily Wage of Manager is ");
-            var dialyWage = basicSalary / 30;
-            Console.WriteLine("Monthly Salary of Manager is ");
+            var dailyWage = basicSalary / 30;
             var monthlySalary = basicSalary + bonus - (dailyWage * nonPaidLeaves);
             
-            AddManager(nameOfManager, basicSalary, bonus, paidLeaves, nonPaidLeaves,dialyWage,monthlySalary);
+            AddManager(nameOfManager, basicSalary, bonus, paidLeaves, nonPaidLeaves,dailyWage,monthlySalary);
            
 
 
@@ -76,11 +74,9 @@ namespace SalaryCalculator
             Console.WriteLine("Non-Paid leaves of  Department Head is ");
             string nonPaidLeavesString = Console.ReadLine();
             var nonPaidLeaves = Convert.ToDouble(nonPaidLeavesString);
-            Console.WriteLine("Daily Wage of  Department Head is ");
-            var dialyWage = basicSalary / 30;
-            Console.WriteLine("Monthly Salary of  Department Head is ");
+            var dailyWage = basicSalary / 30;
             var monthlySalary = basicSalary + bonus - (dailyWage * nonPaidLeaves);
-            AddDepartmentHead(nameOfDepartmentHead,basicSalary, bonus, paidLeaves, nonPaidLeaves, dialyWage, monthlySalary);
+            AddDepartmentHead(nameOfDepartmentHead,basicSalary, bonus, paidLeaves, nonPaidLeaves, dailyWage, monthlySalary);
         }
         public void AddDepartmentHead(string nameOfDepartmentHead, double basicSalary, double bonus, double paidLeaves, double nonPaidLeaves, double dailyWage, double monthlySalary)
         {
@@ -115,11 +111,11 @@ namespace SalaryCalculator
             Console.WriteLine("Non-Paid leaves of Team Leader is ");
             string nonPaidLeavesString = Console.ReadLine();
             var nonPaidLeaves = Convert.ToDouble(nonPaidLeavesString);
-            Console.WriteLine("Daily Wage of Team Leader is ");
-            var dialyWage = basicSalary / 30;
-            Console.WriteLine("Monthly Salary of Team Leader is ");
+            
+            var dailyWage = basicSalary / 30;
+            
             var monthlySalary = basicSalary + bonus - (dailyWage * nonPaidLeaves);
-            AddTeamLeader(nameOfTeanLeader, basicSalary, bonus, paidLeaves, nonPaidLeaves, dialyWage, monthlySalary);
+            AddTeamLeader(nameOfTeanLeader, basicSalary, bonus, paidLeaves, nonPaidLeaves, dailyWage, monthlySalary);
 
         }
         public void AddTeamLeader(string nameOfTeamLeader, double basicSalary, double bonus, double paidLeaves, double nonPaidLeaves, double dailyWage, double monthlySalary)
@@ -154,11 +150,9 @@ namespace SalaryCalculator
             Console.WriteLine("Non-Paid leaves of Senior Software Engineer is ");
             string nonPaidLeavesString = Console.ReadLine();
             var nonPaidLeaves = Convert.ToDouble(nonPaidLeavesString);
-            Console.WriteLine("Daily Wage of Senior Software Engineer is ");
-            var dialyWage = basicSalary / 30;
-            Console.WriteLine("Monthly Salary of Senior Software Engineer is ");
-            var monthlySalary = basicSalary + bonus - (dailyWage * nonPaidLeaves);
-            AddSeniorSoftwareEngineer(nameOfSeniorSoftwareEngineer, basicSalary, bonus, paidLeaves, nonPaidLeaves, dialyWage, monthlySalary);
+            var dailyWage = basicSalary / 30;
+            var monthlySalary = basicSalary + bonus - dailyWage * nonPaidLeaves;
+            AddSeniorSoftwareEngineer(nameOfSeniorSoftwareEngineer, basicSalary, bonus, paidLeaves, nonPaidLeaves, dailyWage, monthlySalary);
         }
         public void AddSeniorSoftwareEngineer(string nameOfSeniorSoftwareEngineer, double basicSalary, double bonus, double paidLeaves, double nonPaidLeaves, double dailyWage, double monthlySalary)
         {
@@ -192,11 +186,9 @@ namespace SalaryCalculator
             Console.WriteLine("Non-Paid leaves of Junior Software Engineer is ");
             string nonPaidLeavesString = Console.ReadLine();
             var nonPaidLeaves = Convert.ToDouble(nonPaidLeavesString);
-            Console.WriteLine("Daily Wage of Junior Software Engineer is ");
-            var dialyWage = basicSalary / 30;
-            Console.WriteLine("Monthly Salary of Junior Software Engineer is ");
+            var dailyWage = basicSalary / 30;
             var monthlySalary = basicSalary + bonus - (dailyWage * nonPaidLeaves);
-            AddJuniorSoftwareEngineer(nameOfJuniorSoftwareEngineer, basicSalary, bonus, paidLeaves, nonPaidLeaves, dialyWage, monthlySalary);
+            AddJuniorSoftwareEngineer(nameOfJuniorSoftwareEngineer, basicSalary, bonus, paidLeaves, nonPaidLeaves, dailyWage, monthlySalary);
 
         }
         public void AddJuniorSoftwareEngineer(string nameOfJuniorSoftwareEngineer, double basicSalary, double bonus, double paidLeaves, double nonPaidLeaves, double dailyWage, double monthlySalary)

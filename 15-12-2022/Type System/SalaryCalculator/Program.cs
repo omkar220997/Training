@@ -76,16 +76,41 @@ namespace SalaryCalculator
                     while (details2)
                     {
                         Console.WriteLine("Type the designation of Employee like 'Manager','Department Head','Team Leader','Senior Software Engineer','Junior Software Engineer' to show salary details");
-                        Console.WriteLine("Type 'Back' for go to main Menu");
+                        Console.WriteLine("Type 'Return' for go to main Menu");
                         var Action2 = Console.ReadLine();
 
                         if (Action2 == "Manager")
                         {
                             addInfo.SalaryDetailOfManager();
                         }
-
+                        else if (Action2 == "Department Head")
+                        {
+                            addInfo.SalaryDetailsOfDepartmentHead();
+                        }
+                        else if (Action2 == "Team Lead")
+                        {
+                            addInfo.SalaryDetailsOfTeamLeader();
+                        }
+                        else if (Action2 == "Senior Software Engineer")
+                        {
+                            addInfo.SalaryDetailsOfSeniorSoftwareEngineer();
+                        }
+                        else if (Action2 == "Junior Software Engineer")
+                        {
+                            addInfo.SalaryDetailsOfJuniorSoftwareEngineer();
+                        }
+                        else if(Action2 == "Return")
+                        {
+                            details2 = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Enter a valid entry");
+                        }
 
                     }
+                    Console.WriteLine("Type the 'Add','Salary Details' to enter details of Employee");
+                    Console.WriteLine("Type'Quit' to exit from application");
 
                 }
                 else if (Action == "Quit")

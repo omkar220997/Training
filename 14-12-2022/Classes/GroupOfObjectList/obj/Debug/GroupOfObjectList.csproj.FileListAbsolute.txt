@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Classes\GroupOfObjectList\bin\Debug\GroupOfObjectList.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Classes\GroupOfObjectList\bin\Debug\GroupOfObjectList.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Classes\GroupOfObjectList\bin\Debug\GroupOfObjectList.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Classes\GroupOfObjectList\obj\Debug\GroupOfObjectList.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Classes\GroupOfObjectList\obj\Debug\GroupOfObjectList.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Classes\GroupOfObjectList\obj\Debug\GroupOfObjectList.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Classes\GroupOfObjectList\obj\Debug\GroupOfObjectList.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\14-12-2022\Classes\GroupOfObjectList\obj\Debug\GroupOfObjectList.pdb

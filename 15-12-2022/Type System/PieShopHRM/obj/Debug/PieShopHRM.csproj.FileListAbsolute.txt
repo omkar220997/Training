@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\PieShopHRM\bin\Debug\PieShopHRM.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\PieShopHRM\bin\Debug\PieShopHRM.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\PieShopHRM\bin\Debug\PieShopHRM.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\PieShopHRM\obj\Debug\PieShopHRM.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\PieShopHRM\obj\Debug\PieShopHRM.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\PieShopHRM\obj\Debug\PieShopHRM.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\PieShopHRM\obj\Debug\PieShopHRM.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Type System\PieShopHRM\obj\Debug\PieShopHRM.pdb

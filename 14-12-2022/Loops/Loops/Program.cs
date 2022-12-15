@@ -14,12 +14,20 @@ namespace Loops
         public void AddMusician()
         {
             Band band = new Band();
-            Musician musician = new Musician();
+          
             Console.WriteLine("Name of the Musician is ");
-            musician.NameOfMusician=Console.ReadLine();
+            var nameOfMusician=Console.ReadLine();
             Console.WriteLine("Instrument Played by the musician is ");
-            musician.InstrumentOfMusician=Console.ReadLine();
+            var instrumentOfMusician=Console.ReadLine();
+            AddMusician(nameOfMusician,instrumentOfMusician);
+        }
+        public void AddMusician(string nameOfMusician, string instrumentOfMusician)
+        {
+            var musician = new Musician();
+            musician.NameOfMusician=nameOfMusician;
+            musician.InstrumentOfMusician=instrumentOfMusician;
             Musicians.Add(musician);
+            Console.WriteLine(musician.NameOfMusician+ " was added");
         }
         public void Announce()
         {
@@ -54,6 +62,18 @@ namespace Loops
                 {
                     band.AddMusician();
 
+                }
+                else if (Action.StartsWith("Add"))
+                {
+                    var arguments = Action.Split(' ');
+                    if (arguments.Length == 3)
+                    {
+                        band.AddMusician(arguments[1],arguments[2]);
+                    }
+                    else
+                    {
+                        band.AddMusician();
+                    }
                 }
                 else if(Action == "Announce")
                 {

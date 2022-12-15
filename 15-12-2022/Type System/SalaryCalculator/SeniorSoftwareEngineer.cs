@@ -13,15 +13,15 @@ namespace SalaryCalculator
         public double Bonus;
         public double PaidLeaves;
         public double NonPaidLeaves;
-        public double DailyWages;
-        public double MontlySalary;
+        public double DailyWage;
+        public double MonthlySalary;
 
-        public void SalaryOfJuniorSoftwareEngineer()
+        public void SalaryOfSeniorSoftwareEngineer()
         {
             Console.WriteLine("Basic salary for " + NameOfSeniorSoftwareEngineer + " is " + BasicSalary);
-            Console.WriteLine("Total Paid leaves " + NameOfSeniorSoftwareEngineer + "  taken is " + PaidLeaves);
-            Console.WriteLine("Total Non-Paid leaves " + NameOfSeniorSoftwareEngineer + " taken is " + NonPaidLeaves);
-            Console.WriteLine("Current Month salary of " + NameOfSeniorSoftwareEngineer + " is " + MontlySalary);
+            Console.WriteLine("Total Paid leaves of " + NameOfSeniorSoftwareEngineer + "  taken is " + PaidLeaves);
+            Console.WriteLine("Total Non-Paid leaves of " + NameOfSeniorSoftwareEngineer + " taken is " + NonPaidLeaves);
+            Console.WriteLine("Current Month salary of " + NameOfSeniorSoftwareEngineer + " is " + MonthlySalary);
         }
     }
 }

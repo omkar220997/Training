@@ -62,7 +62,7 @@ namespace SalaryCalculator
                         }
                         else
                         {
-                            Console.WriteLine("Enter a valis entry");
+                            Console.WriteLine("Enter a valid entry");
                         }
                       
                     }
@@ -72,6 +72,20 @@ namespace SalaryCalculator
                 }
                 else if (Action == "Salary Details")
                 {
+                    var details2 = true;
+                    while (details2)
+                    {
+                        Console.WriteLine("Type the designation of Employee like 'Manager','Department Head','Team Leader','Senior Software Engineer','Junior Software Engineer' to show salary details");
+                        Console.WriteLine("Type 'Back' for go to main Menu");
+                        var Action2 = Console.ReadLine();
+
+                        if (Action2 == "Manager")
+                        {
+                            addInfo.SalaryDetailOfManager();
+                        }
+
+
+                    }
 
                 }
                 else if (Action == "Quit")

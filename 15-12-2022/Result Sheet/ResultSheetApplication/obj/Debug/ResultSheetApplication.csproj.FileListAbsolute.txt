@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Result Sheet\ResultSheetApplication\bin\Debug\ResultSheetApplication.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Result Sheet\ResultSheetApplication\bin\Debug\ResultSheetApplication.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Result Sheet\ResultSheetApplication\bin\Debug\ResultSheetApplication.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Result Sheet\ResultSheetApplication\obj\Debug\ResultSheetApplication.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Result Sheet\ResultSheetApplication\obj\Debug\ResultSheetApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Result Sheet\ResultSheetApplication\obj\Debug\ResultSheetApplication.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Result Sheet\ResultSheetApplication\obj\Debug\ResultSheetApplication.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Result Sheet\ResultSheetApplication\obj\Debug\ResultSheetApplication.pdb

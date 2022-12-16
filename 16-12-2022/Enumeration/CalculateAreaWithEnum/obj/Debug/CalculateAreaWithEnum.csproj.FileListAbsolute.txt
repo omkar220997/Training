@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\CalculateAreaWithEnum\bin\Debug\CalculateAreaWithEnum.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\CalculateAreaWithEnum\bin\Debug\CalculateAreaWithEnum.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\CalculateAreaWithEnum\bin\Debug\CalculateAreaWithEnum.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\CalculateAreaWithEnum\obj\Debug\CalculateAreaWithEnum.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\CalculateAreaWithEnum\obj\Debug\CalculateAreaWithEnum.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\CalculateAreaWithEnum\obj\Debug\CalculateAreaWithEnum.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\CalculateAreaWithEnum\obj\Debug\CalculateAreaWithEnum.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\CalculateAreaWithEnum\obj\Debug\CalculateAreaWithEnum.pdb

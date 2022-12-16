@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Strings\ConversionOfString\bin\Debug\ConversionOfString.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Strings\ConversionOfString\bin\Debug\ConversionOfString.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Strings\ConversionOfString\bin\Debug\ConversionOfString.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Strings\ConversionOfString\obj\Debug\ConversionOfString.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Strings\ConversionOfString\obj\Debug\ConversionOfString.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Strings\ConversionOfString\obj\Debug\ConversionOfString.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Strings\ConversionOfString\obj\Debug\ConversionOfString.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\15-12-2022\Strings\ConversionOfString\obj\Debug\ConversionOfString.pdb

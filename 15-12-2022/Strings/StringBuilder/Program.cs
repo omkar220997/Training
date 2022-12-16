@@ -10,6 +10,8 @@ namespace StringBuilderMethods
     {
         static void Main(string[] args)
         {
+            
+
             // StringBuilder Append Method
             /*Console.WriteLine("Append and AppendLine methods")
             StringBuilder StringAppend = new StringBuilder("Hello ", 40);

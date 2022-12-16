@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Constructors\ConstructorsBasic\bin\Debug\ConstructorsBasic.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Constructors\ConstructorsBasic\bin\Debug\ConstructorsBasic.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Constructors\ConstructorsBasic\bin\Debug\ConstructorsBasic.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Constructors\ConstructorsBasic\obj\Debug\ConstructorsBasic.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Constructors\ConstructorsBasic\obj\Debug\ConstructorsBasic.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Constructors\ConstructorsBasic\obj\Debug\ConstructorsBasic.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Constructors\ConstructorsBasic\obj\Debug\ConstructorsBasic.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Constructors\ConstructorsBasic\obj\Debug\ConstructorsBasic.pdb

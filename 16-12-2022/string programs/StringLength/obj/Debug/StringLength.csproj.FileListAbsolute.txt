@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\StringLength\bin\Debug\StringLength.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\StringLength\bin\Debug\StringLength.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\StringLength\bin\Debug\StringLength.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\StringLength\obj\Debug\StringLength.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\StringLength\obj\Debug\StringLength.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\StringLength\obj\Debug\StringLength.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\StringLength\obj\Debug\StringLength.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\StringLength\obj\Debug\StringLength.pdb

@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\FrequencyOfSpecificWord\bin\Debug\FrequencyOfSpecificWord.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\FrequencyOfSpecificWord\bin\Debug\FrequencyOfSpecificWord.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\FrequencyOfSpecificWord\bin\Debug\FrequencyOfSpecificWord.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\FrequencyOfSpecificWord\obj\Debug\FrequencyOfSpecificWord.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\FrequencyOfSpecificWord\obj\Debug\FrequencyOfSpecificWord.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\FrequencyOfSpecificWord\obj\Debug\FrequencyOfSpecificWord.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\FrequencyOfSpecificWord\obj\Debug\FrequencyOfSpecificWord.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\FrequencyOfSpecificWord\obj\Debug\FrequencyOfSpecificWord.pdb

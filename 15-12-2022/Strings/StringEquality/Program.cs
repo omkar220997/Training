@@ -53,7 +53,6 @@ namespace StringEquality
                         Console.WriteLine("Password Matched Now you can Login");
                         Check1=false;
                     }
-                    
 
                 }
                 

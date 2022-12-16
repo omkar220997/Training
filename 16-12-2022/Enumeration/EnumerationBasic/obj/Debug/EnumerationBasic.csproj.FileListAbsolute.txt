@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\EnumerationBasic\bin\Debug\EnumerationBasic.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\EnumerationBasic\bin\Debug\EnumerationBasic.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\EnumerationBasic\bin\Debug\EnumerationBasic.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\EnumerationBasic\obj\Debug\EnumerationBasic.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\EnumerationBasic\obj\Debug\EnumerationBasic.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\EnumerationBasic\obj\Debug\EnumerationBasic.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\EnumerationBasic\obj\Debug\EnumerationBasic.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\Enumeration\EnumerationBasic\obj\Debug\EnumerationBasic.pdb

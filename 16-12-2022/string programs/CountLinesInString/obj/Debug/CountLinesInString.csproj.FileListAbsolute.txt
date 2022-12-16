@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\CountLinesInString\bin\Debug\CountLinesInString.exe.config
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\CountLinesInString\bin\Debug\CountLinesInString.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\CountLinesInString\bin\Debug\CountLinesInString.pdb
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\CountLinesInString\obj\Debug\CountLinesInString.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\CountLinesInString\obj\Debug\CountLinesInString.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\CountLinesInString\obj\Debug\CountLinesInString.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\CountLinesInString\obj\Debug\CountLinesInString.exe
+C:\Users\kada_omk\Desktop\Training\13-12-2022\16-12-2022\string programs\CountLinesInString\obj\Debug\CountLinesInString.pdb

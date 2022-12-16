@@ -87,7 +87,7 @@ namespace SalaryCalculator
                         {
                             addInfo.SalaryDetailsOfDepartmentHead();
                         }
-                        else if (Action2 == "Team Lead")
+                        else if (Action2 == "Team Leader")
                         {
                             addInfo.SalaryDetailsOfTeamLeader();
                         }

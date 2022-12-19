@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ArrayListCollection\bin\Debug\ArrayListCollection.exe.config
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ArrayListCollection\bin\Debug\ArrayListCollection.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ArrayListCollection\bin\Debug\ArrayListCollection.pdb
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ArrayListCollection\obj\Debug\ArrayListCollection.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ArrayListCollection\obj\Debug\ArrayListCollection.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ArrayListCollection\obj\Debug\ArrayListCollection.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ArrayListCollection\obj\Debug\ArrayListCollection.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ArrayListCollection\obj\Debug\ArrayListCollection.pdb

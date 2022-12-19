@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\HashTableBasic\bin\Debug\HashTableBasic.exe.config
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\HashTableBasic\bin\Debug\HashTableBasic.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\HashTableBasic\bin\Debug\HashTableBasic.pdb
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\HashTableBasic\obj\Debug\HashTableBasic.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\HashTableBasic\obj\Debug\HashTableBasic.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\HashTableBasic\obj\Debug\HashTableBasic.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\HashTableBasic\obj\Debug\HashTableBasic.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\HashTableBasic\obj\Debug\HashTableBasic.pdb

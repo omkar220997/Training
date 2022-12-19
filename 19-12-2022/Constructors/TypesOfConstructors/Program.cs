@@ -8,7 +8,7 @@ namespace TypesOfConstructors
 {
     internal class Program
     {
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
             DefaultConstructor defaultConstructor = new DefaultConstructor();
             ParameterizedConstructor parameterizedConstructor1 = new ParameterizedConstructor("omkar kadam", 8080770371);
@@ -17,6 +17,7 @@ namespace TypesOfConstructors
             CopyConstructor copyConstructor1 = new CopyConstructor(copyConstructor);
             copyConstructor.Display();
             copyConstructor1.Display();
+            StaticConstructor staticConstructor = new StaticConstructor("Non static");
             Console.ReadLine();
         }
     }

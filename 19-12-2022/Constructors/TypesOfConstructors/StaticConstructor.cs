@@ -8,7 +8,7 @@ namespace TypesOfConstructors
 {
     internal class StaticConstructor
     {
-        string type;
+        string Type;
        
         internal StaticConstructor(string type)
         {

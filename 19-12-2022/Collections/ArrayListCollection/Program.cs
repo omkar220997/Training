@@ -19,19 +19,13 @@ namespace ArrayListCollection
             arrayList.Add(400);
             arrayList.Add(500);
             arrayList.Add(600);
-            Console.WriteLine(arrayList.Capacity);
-            for(int i = 0; i <= arrayList.Capacity; i++)
-            {
-                if (i == 2)
-                {
-                    arrayList.Insert(2, 350);
-                }
-                else
-                {
-                    arrayList.Remove(200);
-                }
-                Console.WriteLine(arrayList[i]);
+            arrayList.Reverse();
+            arrayList.ToString();
 
+            Console.WriteLine(arrayList.Capacity);
+            foreach(Object obj in arrayList)
+            {
+                Console.WriteLine(obj);
             }
 
             Console.ReadLine(); 

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassGenerics.cs" />
     <Compile Include="CompareGenerics.cs" />
     <Compile Include="ListCollection.cs" />
     <Compile Include="Program.cs" />

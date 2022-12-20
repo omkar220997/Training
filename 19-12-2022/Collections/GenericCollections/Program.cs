@@ -18,10 +18,18 @@ namespace GenericCollections
             listCollection.DisplyStudentInfo();
            */
            // CompareGenerics Class
-           CompareGenerics compareGenerics = new CompareGenerics();
+           /* CompareGenerics compareGenerics = new CompareGenerics();
             bool result = compareGenerics.Compare<string>("Omkar", "Omkar");
             Console.WriteLine(result);
+           */
+           // ClassGenerics Class
 
+            ClassGenerics<double> classGenerics = new ClassGenerics<double>();
+            classGenerics.Add(15, 20);
+            classGenerics.Sub(45, 30);
+            classGenerics.Mul(15, 10);
+            classGenerics.Div(250, 25);
+            
             Console.ReadLine();
         }
     }

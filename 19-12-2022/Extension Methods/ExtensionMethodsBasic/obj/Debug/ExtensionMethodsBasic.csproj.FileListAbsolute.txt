@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Extension Methods\ExtensionMethodsBasic\bin\Debug\ExtensionMethodsBasic.exe.config
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Extension Methods\ExtensionMethodsBasic\bin\Debug\ExtensionMethodsBasic.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Extension Methods\ExtensionMethodsBasic\bin\Debug\ExtensionMethodsBasic.pdb
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Extension Methods\ExtensionMethodsBasic\obj\Debug\ExtensionMethodsBasic.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Extension Methods\ExtensionMethodsBasic\obj\Debug\ExtensionMethodsBasic.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Extension Methods\ExtensionMethodsBasic\obj\Debug\ExtensionMethodsBasic.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Extension Methods\ExtensionMethodsBasic\obj\Debug\ExtensionMethodsBasic.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Extension Methods\ExtensionMethodsBasic\obj\Debug\ExtensionMethodsBasic.pdb

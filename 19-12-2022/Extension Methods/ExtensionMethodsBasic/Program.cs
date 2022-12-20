@@ -10,6 +10,10 @@ namespace ExtensionMethodsBasic
     {
         static void Main(string[] args)
         {
+            StudentInfo studentInfo = new StudentInfo();
+            studentInfo.DisplayStudent();
+            Console.ReadLine();
+
         }
     }
 }

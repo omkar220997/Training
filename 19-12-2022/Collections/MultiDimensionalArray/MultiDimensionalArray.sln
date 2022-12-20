@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensionalArray", "MultiDimensionalArray.csproj", "{532F2E57-D2C0-443C-901F-2E2D6053C6BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutliDimensionalArrayUserInput", "..\MutliDimensionalArrayUserInput\MutliDimensionalArrayUserInput.csproj", "{F931D5D4-ED14-4A83-9790-38F9AAC5E4B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeDimewnsionalArray", "..\ThreeDimewnsionalArray\ThreeDimewnsionalArray.csproj", "{19294D85-FACF-407A-8D1A-B978276833A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{532F2E57-D2C0-443C-901F-2E2D6053C6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532F2E57-D2C0-443C-901F-2E2D6053C6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{532F2E57-D2C0-443C-901F-2E2D6053C6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F931D5D4-ED14-4A83-9790-38F9AAC5E4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F931D5D4-ED14-4A83-9790-38F9AAC5E4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F931D5D4-ED14-4A83-9790-38F9AAC5E4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F931D5D4-ED14-4A83-9790-38F9AAC5E4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19294D85-FACF-407A-8D1A-B978276833A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19294D85-FACF-407A-8D1A-B978276833A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19294D85-FACF-407A-8D1A-B978276833A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19294D85-FACF-407A-8D1A-B978276833A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

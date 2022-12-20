@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ThreeDimewnsionalArray\bin\Debug\ThreeDimewnsionalArray.exe.config
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ThreeDimewnsionalArray\bin\Debug\ThreeDimewnsionalArray.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ThreeDimewnsionalArray\bin\Debug\ThreeDimewnsionalArray.pdb
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ThreeDimewnsionalArray\obj\Debug\ThreeDimewnsionalArray.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ThreeDimewnsionalArray\obj\Debug\ThreeDimewnsionalArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ThreeDimewnsionalArray\obj\Debug\ThreeDimewnsionalArray.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ThreeDimewnsionalArray\obj\Debug\ThreeDimewnsionalArray.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\ThreeDimewnsionalArray\obj\Debug\ThreeDimewnsionalArray.pdb

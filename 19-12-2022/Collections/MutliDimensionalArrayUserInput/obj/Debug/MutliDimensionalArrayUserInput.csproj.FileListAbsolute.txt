@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\MutliDimensionalArrayUserInput\bin\Debug\MutliDimensionalArrayUserInput.exe.config
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\MutliDimensionalArrayUserInput\bin\Debug\MutliDimensionalArrayUserInput.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\MutliDimensionalArrayUserInput\bin\Debug\MutliDimensionalArrayUserInput.pdb
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\MutliDimensionalArrayUserInput\obj\Debug\MutliDimensionalArrayUserInput.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\MutliDimensionalArrayUserInput\obj\Debug\MutliDimensionalArrayUserInput.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\MutliDimensionalArrayUserInput\obj\Debug\MutliDimensionalArrayUserInput.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\MutliDimensionalArrayUserInput\obj\Debug\MutliDimensionalArrayUserInput.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\MutliDimensionalArrayUserInput\obj\Debug\MutliDimensionalArrayUserInput.pdb

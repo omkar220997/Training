@@ -15,10 +15,10 @@ namespace MultiDimensionalArray
             {
                 for (int j=0;j<Marks.GetLength(1); j++)
                 {
-                   // Console.Write(Marks[i,j]+" ");
+                    Console.Write(Marks[i,j]+"\t");
                    
 
-                    Console.WriteLine($" Marks for student {i + 1} in semister{j+1}  is {Marks[i, j]}");
+                    //Console.WriteLine($" Marks for student {i + 1} in semister{j+1}  is {Marks[i, j]}");
                 }
                 Console.WriteLine();
             }

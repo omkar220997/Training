@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\3DJaggedArray\bin\Debug\3DJaggedArray.exe.config
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\3DJaggedArray\bin\Debug\3DJaggedArray.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\3DJaggedArray\bin\Debug\3DJaggedArray.pdb
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\3DJaggedArray\obj\Debug\3DJaggedArray.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\3DJaggedArray\obj\Debug\3DJaggedArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\3DJaggedArray\obj\Debug\3DJaggedArray.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\3DJaggedArray\obj\Debug\3DJaggedArray.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Collections\3DJaggedArray\obj\Debug\3DJaggedArray.pdb

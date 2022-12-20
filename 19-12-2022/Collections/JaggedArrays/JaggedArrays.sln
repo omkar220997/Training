@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays", "JaggedArrays.csproj", "{180D33D2-C646-4F13-920E-6C8AE8FDE67A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DJaggedArray", "..\3DJaggedArray\3DJaggedArray.csproj", "{D40F696E-4DAF-4BFA-A89B-EEE2ECCE221C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{180D33D2-C646-4F13-920E-6C8AE8FDE67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{180D33D2-C646-4F13-920E-6C8AE8FDE67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{180D33D2-C646-4F13-920E-6C8AE8FDE67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40F696E-4DAF-4BFA-A89B-EEE2ECCE221C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40F696E-4DAF-4BFA-A89B-EEE2ECCE221C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40F696E-4DAF-4BFA-A89B-EEE2ECCE221C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40F696E-4DAF-4BFA-A89B-EEE2ECCE221C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

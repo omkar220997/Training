@@ -14,6 +14,7 @@ namespace CustomerData
             CustomerProperties customerProperties = new CustomerProperties();
             //Console.WriteLine(customerProperties.CustomerName);
             //Only Value getting is applicable Bcoz it is a readonly property.
+            Console.BackgroundColor= ConsoleColor.Magenta;
             customerProperties.CustomerDisplay();
             Console.ReadLine();
         }

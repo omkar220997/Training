@@ -12,6 +12,7 @@ namespace ExtensionMethodsBasic
         {
             StudentInfo studentInfo = new StudentInfo();
             studentInfo.DisplayStudent();
+            studentInfo.StudentMobileNumber();
             Console.ReadLine();
 
         }

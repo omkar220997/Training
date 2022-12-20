@@ -13,8 +13,8 @@ namespace GenericCollections
         static void Main(string[] args)
         {
             ListCollection listCollection = new ListCollection();
-            listCollection.AddMarks();
-            listCollection.DisplyMarks();
+            listCollection.AddStudentInfo();
+            listCollection.DisplyStudentInfo();
             Console.ReadLine();
         }
     }

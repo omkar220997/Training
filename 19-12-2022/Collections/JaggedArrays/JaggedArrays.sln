@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays", "JaggedArrays.csproj", "{180D33D2-C646-4F13-920E-6C8AE8FDE67A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{180D33D2-C646-4F13-920E-6C8AE8FDE67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180D33D2-C646-4F13-920E-6C8AE8FDE67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180D33D2-C646-4F13-920E-6C8AE8FDE67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180D33D2-C646-4F13-920E-6C8AE8FDE67A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AD7A165-5CE7-4AC3-85DD-94CA7A2EC640}
+	EndGlobalSection
+EndGlobal

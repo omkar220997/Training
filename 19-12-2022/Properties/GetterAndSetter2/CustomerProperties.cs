@@ -22,7 +22,7 @@ namespace GetterAndSetter2
             _CustomerStatus = Console.ReadLine();
             Console.WriteLine("Enter Email of Customer");
             _CustomerEmail = Console.ReadLine();
-            Console.WriteLine("Enter Email of Customer");
+            Console.WriteLine("Enter Mobile Number of Customer");
             _CustomerMobile = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter Amount of Customer");
             _CustomerAmount = Convert.ToDouble(Console.ReadLine());

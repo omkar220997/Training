@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Properties\GetterAndSetter2\bin\Debug\GetterAndSetter2.exe.config
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Properties\GetterAndSetter2\bin\Debug\GetterAndSetter2.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Properties\GetterAndSetter2\bin\Debug\GetterAndSetter2.pdb
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Properties\GetterAndSetter2\obj\Debug\CustomerData.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Properties\GetterAndSetter2\obj\Debug\CustomerData.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Properties\GetterAndSetter2\obj\Debug\CustomerData.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Properties\GetterAndSetter2\obj\Debug\GetterAndSetter2.exe
+C:\Users\kada_omk\Desktop\Training\C#\19-12-2022\Properties\GetterAndSetter2\obj\Debug\GetterAndSetter2.pdb

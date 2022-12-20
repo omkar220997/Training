@@ -12,9 +12,16 @@ namespace GenericCollections
     {
         static void Main(string[] args)
         {
-            ListCollection listCollection = new ListCollection();
+            //ListCollection class
+           /* ListCollection listCollection = new ListCollection();
             listCollection.AddStudentInfo();
             listCollection.DisplyStudentInfo();
+           */
+           // CompareGenerics Class
+           CompareGenerics compareGenerics = new CompareGenerics();
+            bool result = compareGenerics.Compare<string>("Omkar", "Omkar");
+            Console.WriteLine(result);
+
             Console.ReadLine();
         }
     }

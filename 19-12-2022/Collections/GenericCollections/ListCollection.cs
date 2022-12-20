@@ -10,7 +10,7 @@ namespace GenericCollections
     {
         List<int> Marks=new List<int>();
         List<string> Names = new List<string>();
-
+        
         internal void AddStudentInfo()
         {
             Console.WriteLine("Enter Name of student1 ");
@@ -36,6 +36,7 @@ namespace GenericCollections
         }
         internal void DisplyStudentInfo()
         {
+
             for(int i = 0; i < Marks.Count; i++)
             {
                 Console.WriteLine($"Marks for {Names[i]} is {Marks[i]}");

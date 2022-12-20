@@ -31,9 +31,41 @@ namespace GenericCollections
             classGenerics.Div(250, 25);
             */
 
-            DictionaryCollection dictionaryCollection = new DictionaryCollection();
+           /* DictionaryCollection dictionaryCollection = new DictionaryCollection();
             dictionaryCollection.AddStudentInfo();
             dictionaryCollection.DisplayStudent();
+           */
+           //Taking class as a Type in List Collection 
+           List<Customer>Customers=new List<Customer>();
+            Customer customer1 = new Customer
+            {
+                CustomerName = "Omkar kadam",
+                CustomerEmail = "omkar.kadam@gmail.com",
+                CustomerAmount = 2500,
+                CustomerMobile = 8080770371
+            };
+            Customer customer2=new Customer
+            {
+                CustomerName = "Pankaj Mahale",
+                CustomerEmail = "pankaj.mahale@gmail.com",
+                CustomerAmount = 3200,
+                CustomerMobile = 8888158484
+            };
+            Customer customer3 = new Customer
+            {
+                CustomerName = "Shubham Jadhav",
+                CustomerEmail = "shubham.jadhav@gmail.com",
+                CustomerAmount = 4500,
+                CustomerMobile = 7979787979
+            };
+            Customers.Add(customer1);
+            Customers.Add(customer2);
+            Customers.Add(customer3);
+            foreach(Customer customer in Customers)
+            {
+                Console.WriteLine(customer.CustomerName+" , "+customer.CustomerEmail+" , "+customer.CustomerMobile+" , "+customer.CustomerAmount);
+                
+            }
             Console.ReadLine();
         }
     }

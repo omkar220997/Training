@@ -24,12 +24,16 @@ namespace GenericCollections
            */
            // ClassGenerics Class
 
-            ClassGenerics<double> classGenerics = new ClassGenerics<double>();
+           /* ClassGenerics<double> classGenerics = new ClassGenerics<double>();
             classGenerics.Add(15, 20);
             classGenerics.Sub(45, 30);
             classGenerics.Mul(15, 10);
             classGenerics.Div(250, 25);
-            
+            */
+
+            DictionaryCollection dictionaryCollection = new DictionaryCollection();
+            dictionaryCollection.AddStudentInfo();
+            dictionaryCollection.DisplayStudent();
             Console.ReadLine();
         }
     }

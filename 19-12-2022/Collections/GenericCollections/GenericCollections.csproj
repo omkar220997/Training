@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ClassGenerics.cs" />
     <Compile Include="CompareGenerics.cs" />
+    <Compile Include="DictionaryCollection.cs" />
     <Compile Include="ListCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

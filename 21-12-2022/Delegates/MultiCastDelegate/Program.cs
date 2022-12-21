@@ -23,6 +23,7 @@ namespace MultiCastDelegate
             RectDelegate RD = p.GetRectArea;
             RD += p.GetRectPerimeter;
             RD(10, 15);
+            RD(100, 150);
             Console.ReadLine();
         }
     }

@@ -1,0 +1,23 @@
+Delegates:-
+	1) It is a type safe function pointer.
+	2) A Delegate holds the reference of a method and then calls the method for execution.
+	3) To call a method by using a delegate we have 3 steps:
+	  a) Define a delegate: <modifiers> delegate void/Type <Name> (<Parameter List>)
+	  b) Instantiate a delegate: You have to pass Method name by using instance of class if the method is non static.
+	  c) Call the delegate by passing required parameter values so that internally the method which is bound with the delegate gets executed.
+	4) Method name and delegate name cannot be same.
+	5) The return type and parameters are exactly same as the return type and parameter of method.
+	6) If method is static then no use of static keyword in delegate.
+	7) Delegate signature matches with the method signature.
+	8) It is a Good if delegate is defined insid ethe namespace, you can also define delegates inside the class.
+	9) Because of defining delegate in namespace there is no class name while calling the delegate so you can directly call the delgate by name and write parameters.
+============================================================================================================================================================================
+Multicast Delegates:-
+	1) In Multicast delegate the delegate can hold the reference of more than one method.
+	2) In a class if we have multiple methods with same signature the we can call all the method with the multicast delegate.
+	3) While calling the methods in multicast delegates you should have to bind the instance of delegate with the method call.
+	4) If you want to use the multicast delegates then first check the return type and the parameters of all the methods if both are same then you can use multicast delegates.
+	5) If the return type of all the methods is void then you can call any number of instance of delegates and it gives all values but if there is any value type of methods 
+	   it will give result of last method because the values get override and gives last result only.
+
+=====================================================================================================================================================================================    

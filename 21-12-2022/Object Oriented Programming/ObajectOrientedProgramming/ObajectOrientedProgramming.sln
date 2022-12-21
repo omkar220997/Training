@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObajectOrientedProgramming", "ObajectOrientedProgramming.csproj", "{56E0B3F5-EC8A-4D4E-9439-2AE8EBA48448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56E0B3F5-EC8A-4D4E-9439-2AE8EBA48448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E0B3F5-EC8A-4D4E-9439-2AE8EBA48448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E0B3F5-EC8A-4D4E-9439-2AE8EBA48448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E0B3F5-EC8A-4D4E-9439-2AE8EBA48448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {289E48E3-9B35-47F5-B47F-DC0B3B347A5B}
+	EndGlobalSection
+EndGlobal

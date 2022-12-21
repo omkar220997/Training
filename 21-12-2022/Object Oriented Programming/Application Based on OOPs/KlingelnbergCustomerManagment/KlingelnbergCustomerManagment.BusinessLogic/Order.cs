@@ -17,7 +17,7 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
             OrderID = orderID;
         }
         public DateTimeOffset? OrderDate { get; set; }
-        public int OrderID { get; set; }
+        public int OrderID { get; private set; }
 
         public Order Retrieve(int orderID)
         {

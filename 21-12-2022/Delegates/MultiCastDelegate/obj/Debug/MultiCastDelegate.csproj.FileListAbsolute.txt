@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\C#\21-12-2022\Delegates\MultiCastDelegate\obj\Debug\MultiCastDelegate.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\21-12-2022\Delegates\MultiCastDelegate\obj\Debug\MultiCastDelegate.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\C#\21-12-2022\Delegates\MultiCastDelegate\obj\Debug\MultiCastDelegate.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\21-12-2022\Delegates\MultiCastDelegate\bin\Debug\MultiCastDelegate.exe.config
+C:\Users\kada_omk\Desktop\Training\C#\21-12-2022\Delegates\MultiCastDelegate\bin\Debug\MultiCastDelegate.exe
+C:\Users\kada_omk\Desktop\Training\C#\21-12-2022\Delegates\MultiCastDelegate\bin\Debug\MultiCastDelegate.pdb
+C:\Users\kada_omk\Desktop\Training\C#\21-12-2022\Delegates\MultiCastDelegate\obj\Debug\MultiCastDelegate.exe
+C:\Users\kada_omk\Desktop\Training\C#\21-12-2022\Delegates\MultiCastDelegate\obj\Debug\MultiCastDelegate.pdb

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateBasics", "DelegateBasics.csproj", "{70563B44-AA45-45D6-A9BA-021816689271}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCastDelegate", "..\MultiCastDelegate\MultiCastDelegate.csproj", "{EC5E387D-022F-408D-926D-321A88C8423D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{70563B44-AA45-45D6-A9BA-021816689271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70563B44-AA45-45D6-A9BA-021816689271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70563B44-AA45-45D6-A9BA-021816689271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5E387D-022F-408D-926D-321A88C8423D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5E387D-022F-408D-926D-321A88C8423D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5E387D-022F-408D-926D-321A88C8423D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5E387D-022F-408D-926D-321A88C8423D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

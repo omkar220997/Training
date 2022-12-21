@@ -1,0 +1,106 @@
+Object Oriented Programming:
+===============================================================================================================================================================================
+** Object and Class:-
+	1) In the OOPs Class and the Object both are different entities. Class have the members like methods,constructors,variables and properties which are used to store the
+	   values and to give the instructions by using methods,but the Object is used to call the members of Class. Object is created by using the 'new' keyword of C#. 
+	   In the application When we create a Class and using that class when we create an Object to call the members of Class,after the applicatuion get terminated an 
+	   Object is also vanish even from database also but Class remains because it is definede in the code.
+	2) One Class can have more than one Objects as a instance of that Class which are unique and have different properties.
+	3) Object is not a Class but the 'Business Object' is refered as a Class. 
+	4) Anything from the real world which is significant to create a Class in the application is referred as an entity.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Object Oriented Programming:-
+	1) OOP is an approach to designing and building application which are Flexible, Natural, Well-Crafted and Testable bu focusing on Objects that are interact cleanly with
+	   one another.
+	2) To build the application there are some OOP techniques like 
+	   a) Identifying Classes.
+	   b) Separating responsibilities.
+	   c) Establishing Relationships.
+	   d) Leveraging Reuse. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**a) Identifying Classes:-
+	1) The first step to buiding an Object-Oriented Application is Identify the classes.
+	2) While Identifying Classes first understand the business problem and the requirements or changes required in Business Application.
+	3) Collect the data which is required for application and define it in application as a properties.
+	4) All the actions or the instructions/behavior should be define as a method in application.
+	5) When defining Classes in applicationj based on the problem statement the easiest way to start is with the nouns.
+	6) Identify the most appropriate noun for the each problem defined in the business problem statement, Sometime there is two or more nouns for the one problem or no noun,
+	   it is all depend on the problem statement. After indentifying the nouns from the problem statement make the class of each noun.
+	7) The members of a class defines the properties or data which is required to a Class and the methods or operations that can perform by the Object.	
+	8) See the problem's Requirment to identify the appropriate members for each Class. Method or Operation which perform by the each Object instatiate by the class 
+	   we use Verbs to define the name of methods.
+	9) Also consider the changes which happen in data over the Time.
+       10) For out application we just require the relevant information and all the irrelevant information is abstract it helps to focus on the useful information.
+	   Abstarction is the process of defining Classes by simplifying reality, Ignoring extraneous details and focusing on what is important for an application.
+       11) Encapsulation is the technique of hiding the data and the implimentation details just for reducine rthe complexity. Data hiding is one of the useful feature while creating 
+	   application because outside of the defined class no other class can access that data so our data is secure and use only at required place.
+	   We can use Getter and Setter property to expose these data in application, and the operations performed on the data are exposed to application through methods.
+       12) With the help of encapsulation Objects can work with another Objects in application without knowing the implementation details of each other.
+       13) Code upadation or making changes in application become easier by using Encapsulation because the properties and operation on class is encapulate to one place and
+	   no other classes know about that so there is no impact on other classes while making the changes in one Class.
+       14) Using Getter property we can alolow the authorization before accessing the data and by using Setter propert we can manage to give validation to data so no invalid data 
+	   can be saved in our database.
+       15) If you see the any Entity which is required to application and also have some operation in it then you can create a Class of that Entity. 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Building Entity Class:-
+	1) Currently every application is created as a Lyered structure. There are basically three main Lyers which are used to create an application:
+	   a) User Interface Layer: In this Layer we can control the user interaction with the application.
+	   b) Business Logic layer: In this layer we can apply the logic so the application can perform we desired requirements and user can't access to this layer.
+	   c) Data Access layer: In this we can manage the data which is stored in our database. we can retrieve the data or save the data to the database.
+	2) Some application have more Layer depending upon the requirements and also contain the common libraries which hold some extra data which is required for the application.
+	3) Each layer and libraries are save as a project in one Solution.
+	4) While writimg thr business logic in class you have to define properties private and use Getter and Setter. If there is no code required in get and set propert then use the 
+	   auto implementing property but if there is necessary to write a code for validation or authorization then you have to write whole syntax of the property.
+	5) There is also some pre-defined snippet syntax which are used to build our project and define properties. To add the snippet in project right click in class where you want to add snippet
+	   then click on the snippet and choose the right option change the data type and name of the snippet.
+	6) While creating the Object of a Class it is good option to create a Object using 'var' instead of using Class Name. 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**b)Separation of Responsibilities:-
+	1)When the application is small the class can manage the all the responsibilities but if application grows and it is very difficult to manage all the responsibilities by one class 
+	  and then we have to delegate appropriate responsibilities to other classes.
+	2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

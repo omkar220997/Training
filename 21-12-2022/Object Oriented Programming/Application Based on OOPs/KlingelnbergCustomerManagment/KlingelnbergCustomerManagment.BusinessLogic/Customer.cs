@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,9 +31,19 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
         {
             get
             {
-                return FullName + " " + LastName;
+                string fullName=FirstName;
+                if (!string.IsNullOrWhiteSpace(LastName))
+                {
+                    if (!string.IsNullOrWhiteSpace(fullName))
+                    {
+                        fullName += " ";
+                    }
+                    fullName+= LastName;
+                }
+                return fullName;
             }
         }
+        public static int InstanceCount { get; set; }
 
     }
 }

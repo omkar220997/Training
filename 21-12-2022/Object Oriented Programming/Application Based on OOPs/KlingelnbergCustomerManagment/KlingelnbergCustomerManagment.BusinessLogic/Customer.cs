@@ -55,21 +55,5 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
             return isValid;
         }
         
-        public Customer Retrieve(int customerID)
-        {
-            return new Customer();
-        }
-
-        public List<Customer> Retrieve()
-        {
-            return new List<Customer>();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
-
-
     }
 }

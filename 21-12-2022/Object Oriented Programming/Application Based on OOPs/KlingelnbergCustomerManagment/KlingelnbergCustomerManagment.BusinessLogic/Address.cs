@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace KlingelnbergCustomerManagment.BusinessLogic
 {
-    internal class Address
+    public class Address
     {
         public Address()
         {

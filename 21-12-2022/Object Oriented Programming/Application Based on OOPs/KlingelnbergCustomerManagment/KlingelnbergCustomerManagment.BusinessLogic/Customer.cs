@@ -29,6 +29,7 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
         // Adding Email property using the pre-defined snippet
         public string EmailAdress { get; set; }
         public int CustomerID { get; private set; }
+        public int CustomerType { get; set; }
         public List<Address> AddressList { get; set; }
        
         public string FullName

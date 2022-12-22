@@ -9,14 +9,14 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
 {
     public class Customer
     {
-        public Customer()
+        public Customer():this(0)
         {
 
         }
         public Customer(int customerID)
         {
             CustomerID = customerID;
-
+            AddressList = new List<Address>();
         }
 
 
@@ -29,6 +29,8 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
         // Adding Email property using the pre-defined snippet
         public string EmailAdress { get; set; }
         public int CustomerID { get; private set; }
+        public List<Address> AddressList { get; set; }
+       
         public string FullName
         {
             get

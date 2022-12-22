@@ -35,6 +35,7 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
             if(PostalCode != null) isVAlid = false;
             return isVAlid;
         }
+        
       
     }
 }

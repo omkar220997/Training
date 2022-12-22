@@ -55,11 +55,29 @@ Object Oriented Programming:
 	   then click on the snippet and choose the right option change the data type and name of the snippet.
 	6) While creating the Object of a Class it is good option to create a Object using 'var' instead of using Class Name. 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                           **22-12-2022**
+                                                                         ==================
 **b)Separation of Responsibilities:-
 	1) When the application is small the class can manage the all the responsibilities but if application grows and it is very difficult to manage all the responsibilities by one class 
 	   and then we have to delegate appropriate responsibilities to other classes.
-	Continues.......
-
+	2) Sepsarating the responsibilities will help to minimizes coupling, Maximize cohesion, Simplifies maintenance and Improves testability.
+	3) Coupling is the degree to which classes are depepndent on other classes or external resources. The fewer dependencies the class has.the easier it is to write,test and update and maintain over time.
+	4) Cohesion is a measure of how related everything in a class is to the purpose of the class. If there is a property or method  which is not related to the class then that method or property moved to another class.
+	5) When there is low Coupling it reduce the probability of affecting other class while making changes and it helps to make maintaince easier.
+	6) When there is high Cohesion there is a higher probability that a feature request will affect only a small number of classes, simplifying maintainace.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**c)  Establishing Relationships:-
+	1) Establishing relationship between the class is important so the classes can interact with each other.
+	2) Relation defines how the objects work together to perform the operations of the application.
+	3) OOP defines three basic types of relationships: 
+	   a) Collaboration("uses a") : This relationship defines relationship where one object collaborates with or uses another object that is not otherwise related.
+	   b) Composition ("has a") : defines the relationship where an object is composed of other objects it needs. 	
+	                  Composition is divided in two categories:		
+			    a.1) Aggregation: When an object is composed of multiple objects that can exist outside of the relationship.
+			    a.2) Composition: Composition is then limited to those relationships where the related objects don't otherwise exist.
+	   c) Inheritance("is a") : 
+	4) Collaboration is happen when the one object can uses the one or more instance of another class.
+	5) We can use this keyword for constructore chaining and give 0 as a parameter so the default constructor can call the parameterized constructor.
 
 
 

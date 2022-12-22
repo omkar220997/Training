@@ -56,9 +56,9 @@ Object Oriented Programming:
 	6) While creating the Object of a Class it is good option to create a Object using 'var' instead of using Class Name. 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **b)Separation of Responsibilities:-
-	1)When the application is small the class can manage the all the responsibilities but if application grows and it is very difficult to manage all the responsibilities by one class 
-	  and then we have to delegate appropriate responsibilities to other classes.
-	2)
+	1) When the application is small the class can manage the all the responsibilities but if application grows and it is very difficult to manage all the responsibilities by one class 
+	   and then we have to delegate appropriate responsibilities to other classes.
+	Continues.......
 
 
 

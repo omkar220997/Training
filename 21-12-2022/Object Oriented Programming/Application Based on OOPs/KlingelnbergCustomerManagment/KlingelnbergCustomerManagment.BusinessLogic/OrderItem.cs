@@ -14,7 +14,7 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
         }
         public OrderItem(int orderItemID)
         {
-            OrderItemId = orderItemID
+            OrderItemId = orderItemID;
 
         }
         public int OrderItemId { get; private set; }

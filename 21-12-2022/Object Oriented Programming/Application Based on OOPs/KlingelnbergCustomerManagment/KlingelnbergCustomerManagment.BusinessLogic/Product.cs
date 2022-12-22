@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KlingelnbergCustomerManagment.BusinessLogic
 {
-    public class Product
+    public class Product: EntityBase
     {
         public Product()
         {
@@ -21,7 +21,7 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
         public decimal? CurrentPrice { get; set; }
         public int ProductID { get; private set; }
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
             if (string.IsNullOrWhiteSpace(ProductName)) isValid = false;

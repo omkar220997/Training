@@ -78,6 +78,13 @@ Object Oriented Programming:
 	   c) Inheritance("is a") : 
 	4) Collaboration is happen when the one object can uses the one or more instance of another class.
 	5) We can use this keyword for constructore chaining and give 0 as a parameter so the default constructor can call the parameterized constructor.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**d) Leveraging Reuse:-
+	1) Leveraging reuse involves extracting commonality, Building reusable common classes or components and defining Interfaces.
+	2) We can extract common class and then each child class can reuse the common properties of base class through inheritance.
+	3) Main use of code reusability is write the co0de once and share it to other classes and when the modification or chage is require you have to make changes once and the others adapt that change automatically.
+	4) Reusability also helps to reduce development and maintaince time and the associated cost. Also reduces the bug because reused code tested independently.
+	5)   
 
 
 

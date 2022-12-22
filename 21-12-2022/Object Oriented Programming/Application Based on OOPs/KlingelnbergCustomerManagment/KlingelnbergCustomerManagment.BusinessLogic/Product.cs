@@ -21,20 +21,6 @@ namespace KlingelnbergCustomerManagment.BusinessLogic
         public decimal? CurrentPrice { get; set; }
         public int ProductID { get; private set; }
 
-        public Product Retrive(int productID)
-        {
-            return new Product();
-        }
-
-        public List<Product> Retrive()
-        {
-            return new List<Product>();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
         public bool Validate()
         {
             var isValid = true;

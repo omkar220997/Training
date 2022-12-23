@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\ReverseNumber\bin\Debug\ReverseNumber.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\ReverseNumber\bin\Debug\ReverseNumber.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\ReverseNumber\bin\Debug\ReverseNumber.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\ReverseNumber\obj\Debug\ReverseNumber.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\ReverseNumber\obj\Debug\ReverseNumber.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\ReverseNumber\obj\Debug\ReverseNumber.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\ReverseNumber\obj\Debug\ReverseNumber.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\ReverseNumber\obj\Debug\ReverseNumber.pdb

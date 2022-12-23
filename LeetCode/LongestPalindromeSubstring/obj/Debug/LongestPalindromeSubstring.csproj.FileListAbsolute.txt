@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LongestPalindromeSubstring\bin\Debug\LongestPalindromeSubstring.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LongestPalindromeSubstring\bin\Debug\LongestPalindromeSubstring.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LongestPalindromeSubstring\bin\Debug\LongestPalindromeSubstring.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LongestPalindromeSubstring\obj\Debug\LongestPalindromeSubstring.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LongestPalindromeSubstring\obj\Debug\LongestPalindromeSubstring.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LongestPalindromeSubstring\obj\Debug\LongestPalindromeSubstring.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LongestPalindromeSubstring\obj\Debug\LongestPalindromeSubstring.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LongestPalindromeSubstring\obj\Debug\LongestPalindromeSubstring.pdb

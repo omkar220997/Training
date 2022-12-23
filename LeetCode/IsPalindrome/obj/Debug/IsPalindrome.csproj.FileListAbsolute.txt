@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\IsPalindrome\bin\Debug\IsPalindrome.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\IsPalindrome\bin\Debug\IsPalindrome.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\IsPalindrome\bin\Debug\IsPalindrome.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\IsPalindrome\obj\Debug\IsPalindrome.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\IsPalindrome\obj\Debug\IsPalindrome.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\IsPalindrome\obj\Debug\IsPalindrome.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\IsPalindrome\obj\Debug\IsPalindrome.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\IsPalindrome\obj\Debug\IsPalindrome.pdb

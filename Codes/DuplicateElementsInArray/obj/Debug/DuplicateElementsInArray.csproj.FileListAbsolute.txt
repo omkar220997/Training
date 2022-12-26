@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DuplicateElementsInArray\bin\Debug\DuplicateElementsInArray.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DuplicateElementsInArray\bin\Debug\DuplicateElementsInArray.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DuplicateElementsInArray\bin\Debug\DuplicateElementsInArray.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DuplicateElementsInArray\obj\Debug\DuplicateElementsInArray.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DuplicateElementsInArray\obj\Debug\DuplicateElementsInArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DuplicateElementsInArray\obj\Debug\DuplicateElementsInArray.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DuplicateElementsInArray\obj\Debug\DuplicateElementsInArray.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DuplicateElementsInArray\obj\Debug\DuplicateElementsInArray.pdb

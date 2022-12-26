@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\UniqueNumbersinArray\bin\Debug\UniqueNumbersinArray.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\UniqueNumbersinArray\bin\Debug\UniqueNumbersinArray.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\UniqueNumbersinArray\bin\Debug\UniqueNumbersinArray.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\UniqueNumbersinArray\obj\Debug\UniqueNumbersinArray.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\UniqueNumbersinArray\obj\Debug\UniqueNumbersinArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\UniqueNumbersinArray\obj\Debug\UniqueNumbersinArray.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\UniqueNumbersinArray\obj\Debug\UniqueNumbersinArray.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\UniqueNumbersinArray\obj\Debug\UniqueNumbersinArray.pdb

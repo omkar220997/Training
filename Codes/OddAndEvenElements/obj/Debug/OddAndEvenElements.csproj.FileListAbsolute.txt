@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\OddAndEvenElements\bin\Debug\OddAndEvenElements.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\OddAndEvenElements\bin\Debug\OddAndEvenElements.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\OddAndEvenElements\bin\Debug\OddAndEvenElements.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\OddAndEvenElements\obj\Debug\OddAndEvenElements.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\OddAndEvenElements\obj\Debug\OddAndEvenElements.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\OddAndEvenElements\obj\Debug\OddAndEvenElements.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\OddAndEvenElements\obj\Debug\OddAndEvenElements.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\OddAndEvenElements\obj\Debug\OddAndEvenElements.pdb

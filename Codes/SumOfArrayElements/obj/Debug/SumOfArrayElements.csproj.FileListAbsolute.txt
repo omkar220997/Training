@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\SumOfArrayElements\bin\Debug\SumOfArrayElements.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\SumOfArrayElements\bin\Debug\SumOfArrayElements.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\SumOfArrayElements\bin\Debug\SumOfArrayElements.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\SumOfArrayElements\obj\Debug\SumOfArrayElements.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\SumOfArrayElements\obj\Debug\SumOfArrayElements.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\SumOfArrayElements\obj\Debug\SumOfArrayElements.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\SumOfArrayElements\obj\Debug\SumOfArrayElements.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\SumOfArrayElements\obj\Debug\SumOfArrayElements.pdb

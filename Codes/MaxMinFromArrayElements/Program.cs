@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MaxMinFromArrayElements
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter array size here");
+            int ArraySize = Convert.ToInt32(Console.ReadLine());
+            int[] Elements = new int[ArraySize];
+            for (int i = 0; i < Elements.Length; i++)
+            {
+                Console.WriteLine("Enter Value for the " + i + " position");
+                Elements[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            for (int i = 0; i<Elements.Length; i++)
+            {
+                Console.Write(Elements[i] + " ");
+                
+            }
+            Console.WriteLine();
+            Console.WriteLine("Maximum Value in array is " +Elements.Max());
+            Console.WriteLine("Minimum Value in array is " +Elements.Min());
+            Console.ReadLine();
+        }
+    }
+}

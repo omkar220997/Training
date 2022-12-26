@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\ArrayStoringElements\bin\Debug\ArrayStoringElements.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\ArrayStoringElements\bin\Debug\ArrayStoringElements.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\ArrayStoringElements\bin\Debug\ArrayStoringElements.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\ArrayStoringElements\obj\Debug\ArrayStoringElements.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\ArrayStoringElements\obj\Debug\ArrayStoringElements.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\ArrayStoringElements\obj\Debug\ArrayStoringElements.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\ArrayStoringElements\obj\Debug\ArrayStoringElements.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\ArrayStoringElements\obj\Debug\ArrayStoringElements.pdb

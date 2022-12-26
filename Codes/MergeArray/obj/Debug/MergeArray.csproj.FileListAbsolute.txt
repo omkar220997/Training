@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\MergeArray\bin\Debug\MergeArray.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\MergeArray\bin\Debug\MergeArray.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\MergeArray\bin\Debug\MergeArray.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\MergeArray\obj\Debug\MergeArray.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\MergeArray\obj\Debug\MergeArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\MergeArray\obj\Debug\MergeArray.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\MergeArray\obj\Debug\MergeArray.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\MergeArray\obj\Debug\MergeArray.pdb

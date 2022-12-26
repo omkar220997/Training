@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\FibonacciSeries\bin\Debug\FibonacciSeries.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\FibonacciSeries\bin\Debug\FibonacciSeries.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\FibonacciSeries\bin\Debug\FibonacciSeries.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\FibonacciSeries\obj\Debug\FibonacciSeries.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\FibonacciSeries\obj\Debug\FibonacciSeries.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\FibonacciSeries\obj\Debug\FibonacciSeries.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\FibonacciSeries\obj\Debug\FibonacciSeries.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\FibonacciSeries\obj\Debug\FibonacciSeries.pdb

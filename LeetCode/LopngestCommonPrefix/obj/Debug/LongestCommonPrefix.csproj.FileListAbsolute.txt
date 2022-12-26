@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LopngestCommonPrefix\bin\Debug\LopngestCommonPrefix.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LopngestCommonPrefix\bin\Debug\LopngestCommonPrefix.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LopngestCommonPrefix\bin\Debug\LopngestCommonPrefix.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LopngestCommonPrefix\obj\Debug\LongestCommonPrefix.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LopngestCommonPrefix\obj\Debug\LongestCommonPrefix.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LopngestCommonPrefix\obj\Debug\LongestCommonPrefix.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LopngestCommonPrefix\obj\Debug\LopngestCommonPrefix.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\LeetCode\LopngestCommonPrefix\obj\Debug\LopngestCommonPrefix.pdb

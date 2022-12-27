@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\InsertNewValueInSortedArray\bin\Debug\InsertNewValueInSortedArray.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\InsertNewValueInSortedArray\bin\Debug\InsertNewValueInSortedArray.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\InsertNewValueInSortedArray\bin\Debug\InsertNewValueInSortedArray.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\InsertNewValueInSortedArray\obj\Debug\InsertNewValueInSortedArray.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\InsertNewValueInSortedArray\obj\Debug\InsertNewValueInSortedArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\InsertNewValueInSortedArray\obj\Debug\InsertNewValueInSortedArray.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\InsertNewValueInSortedArray\obj\Debug\InsertNewValueInSortedArray.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\InsertNewValueInSortedArray\obj\Debug\InsertNewValueInSortedArray.pdb

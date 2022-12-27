@@ -1,0 +1,8 @@
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DeleteElementFromPosition\bin\Debug\DeleteElementFromPosition.exe.config
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DeleteElementFromPosition\bin\Debug\DeleteElementFromPosition.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DeleteElementFromPosition\bin\Debug\DeleteElementFromPosition.pdb
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DeleteElementFromPosition\obj\Debug\DeleteElementFromPosition.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DeleteElementFromPosition\obj\Debug\DeleteElementFromPosition.csproj.SuggestedBindingRedirects.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DeleteElementFromPosition\obj\Debug\DeleteElementFromPosition.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DeleteElementFromPosition\obj\Debug\DeleteElementFromPosition.exe
+C:\Users\kada_omk\Desktop\Training\Programming Practice\Codes\DeleteElementFromPosition\obj\Debug\DeleteElementFromPosition.pdb

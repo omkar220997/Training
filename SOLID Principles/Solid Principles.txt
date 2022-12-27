@@ -1,0 +1,163 @@
+ SOLID PRINCIPLES:-
+	A) Single Responsibility Principle.(SRP)
+	B) Open/ Closed Principle.(OCP)
+	C) Liskov Substitution Principle.(LSP)
+	D) Interface Segregation Principle.(ISP)
+	E) Dependency Inversion Principle.(DIP)
+	
+	1) When we are writing a code for a application to get a result after time it is difficult to work on that code if our application design is not proper 
+	   but after using the SOLID Principles our application design is in prper manner so the working with code become easier for updation, testing and for other implementations.
+========================================================================================================================================================================================================
+**A) SINGLE RESPONSIBILITY PRINCIPLE(SRP):-
+	1) A module in the application is might refer to a class or a single function and each software module should have one and only one reason to change.
+	2) The individual classes and methods in our application define what the application does and how it does it.
+	3) Responsibility is a decision our code is making about the specific implentation details of some part of what the application does.
+	4) Responsibilites in code represent things that may change at different time and for different reasons.
+	5) When two or more details are intermixed in the same class it introduces tight coupling between these details. If the details change at differnt times for different reasons
+	   it is likely to cause problems in the future with code.
+	6) Loose coupling refers to approaches that can be used to support having different details of the application interact with one another in a modular fashion. Loose 
+	   coupling is separation of concerns by allowing components to have little or no information of the internal workings and implementation of other components.
+	7) Separation of concern is the concept in which the programs shoulod be separated into distinct sections, each addressing a separate concern, or set of information that affects the program.	
+	8) Cohesion descibe the relationship within the modules. It shows the functional strength of the modules. The greater the cohesion, the better will be the program design.
+	9) It is the dependency between the modules internal elements like methods and internal modules. High cohesion will allow you to reuse classes and method.
+       10) The classes that have many responsibilies have less cohesion than the classes that have single responsibilty.
+==========================================================================================================================================================================================================		
+**B) Open/ Closed Principle.(OCP):-
+	1) In Open/ Closed Principle Software nentities like classes, modules,functions etc should be open for extension, but closed for modification.
+	2) Therer is a method in our application  which perform perticular task and suddenly new requirenment of additional functionality occurs , so most of the time we used to add another method 
+	   to perform that functionality when our application is small it is ok but as time goes and application becomes huge this method will create problems.
+	3) So in OCP New functionality can be added in future and there is no need to make changes in the source code when code is open to extension because the code that is closed to extension has fixed behavior
+	   and there is only way to change the behavior of code is to change the code itself.
+	4) The code should be closed to modification because the less we need to change the source oy code the less likely it is that we will introduce new bugs into it.
+	5) The code which is open to extension have fewer conditional statements than the code which is closed to extension.
+	6) There are typical appooaches to apply OCP:
+		a) Using Parameters.
+		b) Using Inheritance.
+		c) uswing Injection.
+	7) When we want to use OCP awhile adding new functionality in our code we should have to write new functionality in new class because in new class we have to write it from scratch,
+	   so we free to write the code which actually fit to our functionality.Also we can use SOLID principles from start of the code.
+==============================================================================================================================================================================================================================
+**C) Liskov Substitution Principle.(LSP):-
+	1) Objects of a Superclasses should be replaceable with Objects of its subclasses without breaking the application.
+	2) LSP states that the IS-A relationship is insufficient and should be replaced with IS-SUBSTITUTABLE-FOR.
+	3) In application when writting the code Subtypes must be substitutable for their base types.
+	4) Ensure base type invariants are enforced.
+	5) Look for type checking, Null checking and NotImplementedException.
+==========================================================================================================================================================================================================================
+**D) Interface Segregation Principle.(ISP):-
+	1) Interface Segregation Principle states that clients should not be forced to depend on methods they do not use. 
+	2) In ISP A type's Interface in this context is whatever can be accesses by client code working with an instance of that type.
+	3) The client is the code that is interacting with an instance of the interface. Simply Client is a Calling code.
+	4) Large interfaces results in more dependencies and more dependencies results in more coupling and because of more coupling it is hard to change or make modification in our code.
+	5) Detecting ISP Violation in code by Identifying Large Interfaces, NotImplementedException and Code uses just a small subset of a larger interface.
+===========================================================================================================================================================================================================================
+**E) Dependency Inversion Principle.(DIP):-
+	1) Dependency Invewrsion Principloe state that High level modules should not depend on low level modules. Both should depend on Absractions.
+	2) Abstraction should not depend on details, but details should depend on abstractions.
+	3) There are two types of dependencies in c#:
+		a) Compile-Time Dependency.
+		b) Run-Time Dependency.
+	4) Low level code is the code which is used to connect our business logic code/ High level code to the rest of the world means external devices or softwares.
+	5) Abstarction in c# is generally interfaces and abstract base classes. 
+	6) Abstraction should not be coupled to details means they shouldn't know about the specifics of how they are implemented.
+	7) In application code with out the abstraction looks like at compile time the classes use references to the other classes and while run time the this classes call to the other classses,
+	   but after using Abstraction no classes can internally connected with each other classes shows reference to the interfaces and used call then at run time.
+	8) So when there is no Abstraction in code we create a tight coupling but after implementing the Abstraction we create a loose coupling in our application.
+	9) In DIP do not worry about the creating dependencies, no need to create our own dependencies instead of that Depend on abstraction and request dependencies from client.
+       10) Client injects dependecies as Constructor arguments, properties and Method arguments.
+=========================================================================================================================================================================================================================
+
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

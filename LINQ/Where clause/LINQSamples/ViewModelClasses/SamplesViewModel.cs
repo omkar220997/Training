@@ -221,12 +221,12 @@ namespace LINQSamples
 
       try {
         if (UseQuerySyntax) {
-          // Query Syntax
-         
+                    // Query Syntax
+                    value = (from prod in Products select prod).Single(prod => prod.ProductID == search);
         }
         else {
-          // Method Syntax
-          
+                    // Method Syntax
+                    value = Products.Single(prod => prod.ProductID == search);
         }
 
         ResultText = $"Found: {value}";

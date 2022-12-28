@@ -149,11 +149,11 @@ namespace LINQSamples
     {
       if (UseQuerySyntax) {
         // Query Syntax
-
+        Products=(from prod in Products orderby prod.Name select prod).SkipWhile(prod=> prod.Name.StartsWith("A")).ToList();
       }
       else {
         // Method Syntax
-
+        Products=Products.OrderBy(prod=>prod.Name).SkipWhile(prod=>prod.Name.StartsWith("A")).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

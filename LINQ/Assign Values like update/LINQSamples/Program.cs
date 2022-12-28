@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.Skip();
+      vm.SkipWhile();
 
       // Display Product Collection
       foreach (var item in vm.Products) {

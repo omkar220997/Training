@@ -138,17 +138,17 @@ namespace LINQSamples
     {
       List<int> exceptions = new List<int>();
       // Create a list of numbers
-      List<int> list1 = new List<int> { 1, 2, 3, 4 };
+      List<int> list1 = new List<int> { 1, 2, 3, 4,5 };
       // Create a list of numbers
-      List<int> list2 = new List<int> { 3, 4, 5 };
+      List<int> list2 = new List<int> { 3, 4 };
 
       if (UseQuerySyntax) {
         // Query Syntax
-       
+       exceptions=(from num in list1 select num).Except(list2).ToList();
       }
       else {
         // Method Syntax
-        
+        exceptions=list1.Except(list2).ToList();    
       }
 
       ResultText = string.Empty;

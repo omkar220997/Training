@@ -48,11 +48,12 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
+        list=(from prod in Products select prod).ToList();
         
       }
       else {
         // Method Syntax
-        
+        list=Products.Select(prod=>prod).ToList();
       }
 
       ResultText = $"Total Products: {list.Count}";

@@ -70,12 +70,13 @@ namespace LINQSamples
       List<string> list = new List<string>();
 
       if (UseQuerySyntax) {
-        // Query Syntax
+                // Query Syntax
+                list = (from prod in Products select prod.Name).ToList();
         
       }
       else {
         // Method Syntax
-        
+        list= Products.Select(prod=> prod.Name).ToList();
       }
 
       foreach (string item in list) {

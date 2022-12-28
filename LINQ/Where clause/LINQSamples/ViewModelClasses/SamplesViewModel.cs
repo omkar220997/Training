@@ -130,11 +130,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
-       
+       value=(from prod in Products select prod).FirstOrDefault(prod=>prod.Color==search);
       }
       else {
         // Method Syntax
-        
+        value=Products.FirstOrDefault(prod=>prod.Color==search);
       }
 
       if (value == null) {

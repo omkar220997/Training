@@ -58,11 +58,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
                 // Query Syntax
-                value = (from prod in Products select prod).All(prod => prod.Name.Contains(" "));
+                value = (from prod in Products select prod).All(prod => prod.Name.Contains(search));
       }
       else {
                 // Method Syntax
-                value = Products.All(prod => prod.Name.Contains(" "));
+                value = Products.All(prod => prod.Name.Contains(search));
       }
 
       ResultText = $"Do all Name properties contain a '{search}'? {value}";
@@ -82,12 +82,12 @@ namespace LINQSamples
       List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
 
       if (UseQuerySyntax) {
-        // Query Syntax
-
+                // Query Syntax
+                value = (from num in numbers select num).Contains(6);
       }
       else {
         // Method Syntax
-
+        value=numbers.Contains(6);
       }
 
       ResultText = $"Is the number in collection? {value}";

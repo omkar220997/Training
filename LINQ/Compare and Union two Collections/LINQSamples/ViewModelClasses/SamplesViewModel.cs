@@ -236,11 +236,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
-        Products=(from prod in list1 select prod).Union(list2,pc).ToList();
+        Products=(from prod in list1 select prod).Union(list2,pc).OrderBy(prod=>prod.Name).ToList();
       }
       else {
                 // Method Syntax
-                Products = list1.Union(list2,pc).ToList();
+                Products = list1.Union(list2, pc).OrderBy(prod => prod.Name). ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";
@@ -261,11 +261,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
-        Products=(from prod in list1 select prod).Concat(list2).ToList();
+        Products=(from prod in list1 select prod).Concat(list2).OrderBy(prod => prod.Name).ToList();
       }
       else {
                 // Method Syntax
-                Products = list1.Concat(list2).ToList();
+                Products = list1.Concat(list2).OrderBy(prod => prod.Name).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

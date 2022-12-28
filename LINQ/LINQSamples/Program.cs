@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.GetSpecificColumns();
+      vm.AnonymousClass();
 
       // Display Product Collection
       foreach (var item in vm.Products) {

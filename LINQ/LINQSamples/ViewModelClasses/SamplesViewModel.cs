@@ -129,25 +129,51 @@ namespace LINQSamples
       StringBuilder sb = new StringBuilder(2048);
 
       if (UseQuerySyntax) {
-        // Query Syntax
-        
-        // Loop through anonymous class
-        //foreach (var prod in products) {
-        //  sb.AppendLine($"Product ID: {prod.Identifier}");
-        //  sb.AppendLine($"   Product Name: {prod.ProductName}");
-        //  sb.AppendLine($"   Product Size: {prod.ProductSize}");
-        //}
+                // Query Syntax
+
+                // Loop through anonymous class
+                //foreach (var prod in products) {
+                //  sb.AppendLine($"Product ID: {prod.Identifier}");
+                //  sb.AppendLine($"   Product Name: {prod.ProductName}");
+                //  sb.AppendLine($"   Product Size: {prod.ProductSize}");
+                //}
+                var products = (from prod in Products
+                                select new
+                                {
+                                    Identifier = prod.ProductID,
+                                    ProductName = prod.Name,
+                                    ProductSize = prod.Size
+                                });
+                foreach(var prod in products)
+                {
+                    sb.AppendLine($"Product id is {prod.Identifier}");
+                    sb.AppendLine($"Product Name is {prod.ProductName}");
+                    sb.AppendLine($"Product Size is {prod.ProductSize}");
+                }
       }
       else {
-        // Method Syntax
-        
-        // Loop through anonymous class
-        //foreach (var prod in products) {
-        //  sb.AppendLine($"Product ID: {prod.Identifier}");
-        //  sb.AppendLine($"   Product Name: {prod.ProductName}");
-        //  sb.AppendLine($"   Product Size: {prod.ProductSize}");
-        //}
-      }
+                // Method Syntax
+
+                // Loop through anonymous class
+                //foreach (var prod in products) {
+                //  sb.AppendLine($"Product ID: {prod.Identifier}");
+                //  sb.AppendLine($"   Product Name: {prod.ProductName}");
+                //  sb.AppendLine($"   Product Size: {prod.ProductSize}");
+                //}
+                var products = Products.Select(prod => new
+                {
+                    Identifier = prod.ProductID,
+                    ProductName = prod.Name,
+                    ProductSize = prod.Size
+
+                });
+                foreach (var prod in products)
+                {
+                    sb.AppendLine($"Product id is {prod.Identifier}");
+                    sb.AppendLine($"Product Name is {prod.ProductName}");
+                    sb.AppendLine($"Product Size is {prod.ProductSize}");
+                }
+            }
 
       ResultText = sb.ToString();
       Products.Clear();

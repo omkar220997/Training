@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace LINQSamples
@@ -142,12 +143,12 @@ namespace LINQSamples
       IEnumerable<IGrouping<string, Product>> sizeGroup = null;
 
       if (UseQuerySyntax) {
-        // Query syntax
-       
+       // Query syntax
+        sizeGroup = (from prod in Products  group prod by prod.Size into sizes where sizes.Count() > 2 orderby sizes.Count() select sizes);
       }
       else {
         // Method syntax
-        
+        sizeGroup=Products.GroupBy(prod=> prod.Size).Where(sizes=>sizes.Count()>2).OrderBy(sizes => sizes.Count()).Select(sizes=>sizes);    
       }
 
       // Loop through each size

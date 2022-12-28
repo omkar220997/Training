@@ -51,12 +51,13 @@ namespace LINQSamples
       decimal cost = 100;
 
       if (UseQuerySyntax) {
-        // Query Syntax
+                // Query Syntax
+                Products = (from prod in Products where prod.Name.StartsWith(search) && prod.StandardCost > cost select prod).ToList();
         
       }
       else {
         // Method Syntax
-        
+        Products=Products.Where(Prod=>Prod.Name.StartsWith(search) && Prod.StandardCost>cost).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 
 namespace LINQSamples
 {
@@ -87,12 +88,12 @@ namespace LINQSamples
     {
       if (UseQuerySyntax) {
                 // Query Syntax
-                Products = (from prod in Products orderby prod.Name select prod).Take(5).ToList();
+                Products = (from prod in Products orderby prod.StandardCost select prod).Take(5).ToList();
 
       }
       else {
         // Method Syntax
-        Products=Products.OrderBy(prod=>prod.Name).Take(5).ToList();
+        Products=Products.OrderBy(prod=>prod.StandardCost).Take(5).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";
@@ -105,13 +106,15 @@ namespace LINQSamples
     /// </summary>
     public void TakeWhile()
     {
-      if (UseQuerySyntax) {
-        // Query Syntax
-
+      if (UseQuerySyntax) 
+      {
+         // Query Syntax
+         Products = (from prod in Products orderby prod.Name select prod).TakeWhile(prod => prod.Name.StartsWith("A")).ToList();
       }
-      else {
+      else 
+      {
         // Method Syntax
-
+        Products = Products.OrderBy(prod => prod.Name).TakeWhile(prod => prod.Name.StartsWith("A")).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

@@ -106,11 +106,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query syntax
-
+        sizeGroup=(from prod in Products group prod by prod.Size into sizes orderby sizes.Key select sizes);
       }
       else {
-        // Method syntax
-
+                // Method syntax
+                sizeGroup = Products.GroupBy(prod => prod.Size).OrderBy(sizes => sizes.Key).Select (sizes=>sizes);
       }
 
       // Loop through each size

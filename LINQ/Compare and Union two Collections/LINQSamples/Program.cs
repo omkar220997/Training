@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.ExceptIntegers();
+      vm.Except();
 
       // Display Product Collection
       foreach (var item in vm.Products) {

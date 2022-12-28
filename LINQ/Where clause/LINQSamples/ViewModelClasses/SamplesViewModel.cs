@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using LINQSamples.RepositoryClasses;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace LINQSamples
@@ -74,11 +75,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
-       
+       Products=(from prod in Products select prod).ByColor(search).ToList();
       }
       else {
-        // Method Syntax
-        
+                // Method Syntax
+                Products = Products.ByColor(search).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

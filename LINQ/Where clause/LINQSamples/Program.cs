@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.WhereTwoFields();
+      vm.WhereExtensionMethod();
 
       // Display Product Collection
       foreach (var item in vm.Products) {

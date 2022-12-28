@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.Maximum();
+      vm.Average();
 
       // Display Result Text
       Console.WriteLine(vm.ResultText);

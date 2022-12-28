@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.Union();
+      vm.LINQConcat();
 
       // Display Product Collection
       foreach (var item in vm.Products) {

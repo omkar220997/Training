@@ -261,11 +261,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
-        
+        Products=(from prod in list1 select prod).Concat(list2).ToList();
       }
       else {
-        // Method Syntax
-        
+                // Method Syntax
+                Products = list1.Concat(list2).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

@@ -201,12 +201,12 @@ namespace LINQSamples
             if (UseQuerySyntax)
             {
                 // Query Syntax
-
+                value = (from prod in Products select prod).Aggregate(0M,(sum, prod)=>sum +=prod.ListPrice);
             }
             else
             {
                 // Method Syntax
-
+                value=Products.Aggregate(0M, (sum, prod) => sum += prod.ListPrice);
             }
 
             if (value.HasValue)

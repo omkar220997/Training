@@ -170,12 +170,12 @@ namespace LINQSamples
       List<string> colors = new List<string>();
 
       if (UseQuerySyntax) {
-        // Query Syntax
-
+                // Query Syntax
+                colors = (from prod in Products select prod.Color).Distinct().ToList();
       }
       else {
         // Method Syntax
-
+        colors=Products.Select(prod=>prod.Color).Distinct().ToList();
       }
 
       // Build string of Distinct Colors

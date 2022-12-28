@@ -86,12 +86,13 @@ namespace LINQSamples
     public void Take()
     {
       if (UseQuerySyntax) {
-        // Query Syntax
+                // Query Syntax
+                Products = (from prod in Products orderby prod.Name select prod).Take(5).ToList();
 
       }
       else {
         // Method Syntax
-
+        Products=Products.OrderBy(prod=>prod.Name).Take(5).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

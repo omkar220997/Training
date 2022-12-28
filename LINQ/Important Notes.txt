@@ -53,6 +53,9 @@
 	        c) Single() / SingleOrDefault()
        10) By using the where clause for single result we have to catch the exception for multiple result or no result found.
        11) Mostly Single() is used when we have to filter the primary key elements because primary key elements are unique.
+       12) If want to assign some temperory value to get the result we have to use 'let' in our query syntax after the 'in'.
+       13) For method syntax we have to use ForEach method to assign some temperory value.
+       14) 
   
 
 

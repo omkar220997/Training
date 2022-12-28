@@ -55,7 +55,10 @@
        11) Mostly Single() is used when we have to filter the primary key elements because primary key elements are unique.
        12) If want to assign some temperory value to get the result we have to use 'let' in our query syntax after the 'in'.
        13) For method syntax we have to use ForEach method to assign some temperory value.
-       14) 
+       14) All() method searches all items in collection and determines if all items match the condition.
+       15) Any() method searches all items in collection Determines if any items in collection match the condition.
+       16) SequenceEqual() compares two different collections to see if they are equal. When using simple data types such as int, string, a direct comparison between values is performed 
+       17) 
   
 
 

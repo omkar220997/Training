@@ -3,4 +3,104 @@
                                                                                           ==================================
 	
 
-	1) 
+	1) LINQ is SQL like syntax in C# and Visual Basic. The LINQ is Query language exactly designed as a SQL(Structured Query Language) for C3 and .NET. Writing Query Language for relational databases.
+	2) For accessing the data from the databases there is no need to write complex logic, queries help us to access the data very easily.
+	3) By using SQL we can perform actions on Tables but with the help of LINQ we can write queries on a wide variety of data sources like Arrays, Collections, Database, Tables,Datasets etc.
+	4) While writing the clauses in queries always remember thw sequence of clauses which is [ Where << Groupby << Having << Orderby ].
+	5) Syntax of query in LINQ is: { from <alias> in <Collection Name> [<clauses>] select <alias>; }
+		* for example:- from i in arr where i>40 orderby i descending select i;
+	6) There are three types of LINQ to access data tables:	
+	   a) LINQ to Objects : In this we can perform operations on Arrays, collections,etc.
+	   b) LINQ to Databases : In this we can perform operations on Data Tables, Relational Database Tables.
+				- LINQ to ADO.NET
+				- LINQ to SQL
+				- LINQ to Entities.
+	   c) LINQ to XML : In this we can perform operations on the XML Files.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**LINQ to SQL:-
+	1) It is a query language that is introduced in .Net 3.5 framework for working with relational database like SQL Server.
+	2) LINQ is not only about querying the data but also allows us to perform INSERT, UPDATE and DELETE operations calles CRUD Operations.
+	3) CRUD: C- Create(Insert), 
+		 R- Read(Select), 
+		 U- Update, 
+		 D- Delete
+	4) When we Already have SQL to perform on database with the help of ADO.NET then why LINQ to SQL:-
+	   a) SQL ==> SQL Server :-
+		a.1) RunTime syntax checking of SQL statements means when we execute a query that query send to database and at database query is checked and if query is wrong then again it send back to 
+		     machine means there is lots of time involve in this operation.
+		a.2) Not Type Safe means you have to remember each column and the data type of that column while inserting value if you entered wrong data type value it again consume time for checking that in database and send back.
+		a.3) No Intellisense Support means there is no preview while writing the queries you have to remember everything your own.
+		a.4) Debugging of SQL statements  is not possible in this.
+		a.5) Code is a Combination of Object Oriented and Relational.So in this Compiler did not understand the relational language so we have to write all statements in ("..."). 
+
+	   b) LINQ ==> SQL :-
+		b.1) Compile Time Syntax Checking in which syntax of queries or LINQ statements are checked in machine itself and immediatly show the error because of this lots of time will consume.
+		b.2) Type Safe in this whenever you enter wrong type of data in the column it will show error this is also time consuming.
+		b.3) Intellisence Support while writing the statements of LINQ Visual Studio show the correct info which helps to write errorless statements.
+		b.4) Debugging of LINQ statements is possible.
+		b.5) Code is pure Object Oriented. So all the statements are written in C# language so no need to write statements in ("...") Compiler can uderstand the statements. 
+	5) While working with the LINQ we do not have TABLES instead of that we have classes...
+		a)	TABLES    		become		CLASSES
+		b)	COLUMNS 		become		PROPERTY OF CLASS
+		c)	ROWS			become		INSTANCE OF CLASS
+		d)	STORED PROCEDURES	become		METHODS OF CLASS
+	6) To work with LINQ to SQL first we need to convert all the relational objects of database into object oriented types and this process is known as OBJECT-RELATIONAL MAPPING (ORM).
+	7) To perform ORM we are provided witha tool known as OBJECT-RELATIONAL DESIGNER (ORD).
+	8) To filter using extension method use 'this' keyword as a prefix.
+	9) by using Where clause we can get multiple result but for single result we can use:
+	   	a) First() / FirstOrDefault()
+	        b) Last() / lastOrDefault()
+	        c) Single() / SingleOrDefault()
+       10) By using the where clause for single result we have to catch the exception for multiple result or no result found.
+       11) Mostly Single() is used when we have to filter the primary key elements because primary key elements are unique.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+		
+		
+	
+	 

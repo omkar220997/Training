@@ -109,12 +109,12 @@ namespace LINQSamples
       Product prodToFind = new Product { ProductID = search };
 
       if (UseQuerySyntax) {
-        // Query Syntax
-
+                // Query Syntax
+                value = (from prod in Products select prod).Contains(prodToFind, pc);
       }
       else {
         // Method Syntax
-
+        value=Products.Contains(prodToFind, pc);
       }
 
       ResultText = $"Product ID: {search} is in Products Collection = {value}";

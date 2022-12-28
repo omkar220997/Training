@@ -161,11 +161,11 @@ namespace LINQSamples
       try {
         if (UseQuerySyntax) {
           // Query Syntax
-          
+          value=(from prod in Products select prod).Last(prod=>prod.Color==search);
         }
         else {
           // Method Syntax
-          
+          value=Products.Last(prod=>prod.Color==search);    
         }
 
         ResultText = $"Found: {value}";

@@ -74,11 +74,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
-       
+       value=(from prod in list1 select prod).SequenceEqual(list2);
       }
       else {
         // Method Syntax
-       
+       value=list1.SequenceEqual(list2);
       }
 
       if (value) {
@@ -107,15 +107,15 @@ namespace LINQSamples
       List<Product> list2 = ProductRepository.GetAll();
 
       // Remove an element from 'list1' to make the collections different
-      list1.RemoveAt(0);
+      //list1.RemoveAt(0);
 
       if (UseQuerySyntax) {
         // Query Syntax
-        
+        value=(from prod in list1 select prod).SequenceEqual(list2, pc);
       }
       else {
         // Method Syntax
-       
+       value=list1.SequenceEqual(list2,pc);
       }
 
       if (value) {

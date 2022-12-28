@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.Average();
+      vm.Sum();
 
       // Display Result Text
       Console.WriteLine(vm.ResultText);

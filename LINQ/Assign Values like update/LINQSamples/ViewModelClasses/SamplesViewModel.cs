@@ -109,7 +109,7 @@ namespace LINQSamples
       if (UseQuerySyntax) 
       {
          // Query Syntax
-         Products = (from prod in Products orderby prod.Name select prod).TakeWhile(prod => prod.Name.StartsWith("A")).ToList();
+         Products = (from prod in Products orderby prod.Name select prod).TakeWhile(prod => prod.Name.StartsWith("H")).ToList();
       }
       else 
       {
@@ -129,11 +129,12 @@ namespace LINQSamples
     {
       if (UseQuerySyntax) {
         // Query Syntax
+        Products=(from prod in Products orderby prod.Name select prod ).Skip(20).ToList();
 
       }
       else {
         // Method Syntax
-
+        Products=Products.OrderBy(prod=>prod.Name).Skip(20).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

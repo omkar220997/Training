@@ -194,8 +194,13 @@ namespace LINQSamples
                               });
       }
       else {
-        // Method syntax
-       //salesGroup=Sales.
+                // Method syntax
+                salesGroup = Sales.GroupBy(sale => sale.SalesOrderID).Select(sales => new SaleProducts
+                {
+                    SalesOrderID = sales.Key,
+                    Products = Products.Join(sales, prod => prod.ProductID,
+                    sale => sale.ProductID, (prod, sale) => prod).ToList()
+                });
       }
 
       // Loop through each sales order

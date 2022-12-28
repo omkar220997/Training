@@ -69,12 +69,12 @@ namespace LINQSamples
       IEnumerable<IGrouping<string, Product>> sizeGroup = null;
 
       if (UseQuerySyntax) {
-        // Query syntax
-        
+                // Query syntax
+                sizeGroup = (from prod in Products orderby prod.Size group prod by prod.Size into sizes select sizes);
       }
       else {
         // Method syntax
-        
+        sizeGroup=Products.OrderBy(prod => prod.Size).GroupBy(prod => prod.Size);
       }
 
       // Loop through each size

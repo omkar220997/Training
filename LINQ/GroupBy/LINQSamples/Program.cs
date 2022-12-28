@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.GroupBy();
+      vm.GroupByIntoSelect();
 
       // Display Result Text
       Console.WriteLine(vm.ResultText);

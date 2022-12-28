@@ -107,7 +107,7 @@ namespace LINQSamples
       List<Product> list2 = ProductRepository.GetAll();
 
       // Remove an element from 'list1' to make the collections different
-      //list1.RemoveAt(0);
+      list1.RemoveAt(0);
 
       if (UseQuerySyntax) {
         // Query Syntax

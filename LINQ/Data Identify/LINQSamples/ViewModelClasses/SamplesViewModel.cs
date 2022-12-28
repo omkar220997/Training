@@ -57,12 +57,12 @@ namespace LINQSamples
       bool value = true;
 
       if (UseQuerySyntax) {
-        // Query Syntax
-
+                // Query Syntax
+                value = (from prod in Products select prod).All(prod => prod.Name.Contains(" "));
       }
       else {
-        // Method Syntax
-
+                // Method Syntax
+                value = Products.All(prod => prod.Name.Contains(" "));
       }
 
       ResultText = $"Do all Name properties contain a '{search}'? {value}";

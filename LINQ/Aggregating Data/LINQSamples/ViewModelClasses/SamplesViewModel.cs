@@ -102,11 +102,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
-
+        value=(from prod in Products select prod.ListPrice).Min();
       }
       else {
-        // Method Syntax
-        
+                // Method Syntax
+                value = Products.Min(prod => prod.ListPrice);
       }
 
       if (value.HasValue) {

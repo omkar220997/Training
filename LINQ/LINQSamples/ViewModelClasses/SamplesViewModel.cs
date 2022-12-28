@@ -209,11 +209,12 @@ namespace LINQSamples
     {
       if (UseQuerySyntax) {
         // Query Syntax
+        Products= (from prod in Products orderby prod.Name descending select prod).ToList();
 
       }
       else {
-        // Method Syntax
-
+                // Method Syntax
+                Products = Products.OrderByDescending(prod => prod.Name).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.OrderBy();
+      vm.OrderByDescending();
 
       // Display Product Collection
       foreach (var item in vm.Products) {

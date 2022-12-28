@@ -251,11 +251,13 @@ namespace LINQSamples
 
       try {
         if (UseQuerySyntax) {
-          // Query Syntax
+                    // Query Syntax
+                    value = (from prod in Products select prod).SingleOrDefault(prod => prod.ProductID == search);
 
         }
         else {
           // Method Syntax
+          value=Products.SingleOrDefault(prod=> prod.ProductID == search);  
           
         }
 

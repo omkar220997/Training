@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.Single();
+      vm.SingleOrDefault();
 
       // Display Product Collection
       foreach (var item in vm.Products) {

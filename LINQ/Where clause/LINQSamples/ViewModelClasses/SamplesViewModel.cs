@@ -1,4 +1,5 @@
 ﻿using LINQSamples.RepositoryClasses;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -99,11 +100,12 @@ namespace LINQSamples
       try {
         if (UseQuerySyntax) {
           // Query Syntax
+          value=(from prod in Products select prod).First(prod=>prod.Color==search);
           
         }
         else {
           // Method Syntax
-          
+          value=Products.First(prod=>prod.Color==search);
         }
 
         ResultText = $"Found: {value}";

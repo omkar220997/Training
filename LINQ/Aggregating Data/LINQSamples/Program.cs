@@ -14,7 +14,7 @@ namespace LINQSamples
       };
 
       // Call a sample method
-      vm.Count();
+      vm.CountFiltered();
 
       // Display Result Text
       Console.WriteLine(vm.ResultText);

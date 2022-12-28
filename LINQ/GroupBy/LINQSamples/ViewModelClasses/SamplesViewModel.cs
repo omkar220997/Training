@@ -180,12 +180,22 @@ namespace LINQSamples
 
       // Get all products for a sales order id
       if (UseQuerySyntax) {
-        // Query syntax
-       
+                // Query syntax
+                salesGroup = (from sale in Sales
+                              group sale by sale.SalesOrderID into sales
+                              select new SaleProducts
+                              {
+                                  SalesOrderID = sales.Key,
+                                  Products = (from prod in Products
+                                              join sale in Sales on prod.ProductID
+                                            equals sale.ProductID
+                                              where sale.SalesOrderID == sales.Key
+                                              select prod).ToList()
+                              });
       }
       else {
         // Method syntax
-       
+       //salesGroup=Sales.
       }
 
       // Loop through each sales order

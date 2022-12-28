@@ -190,11 +190,12 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
+        value=(from prod in Products select prod).LastOrDefault(prod=>prod.Color == search);
 
       }
       else {
-        // Method Syntax
-
+                // Method Syntax
+                value = Products.LastOrDefault(prod => prod.Color == search);
       }
 
       if (value == null) {

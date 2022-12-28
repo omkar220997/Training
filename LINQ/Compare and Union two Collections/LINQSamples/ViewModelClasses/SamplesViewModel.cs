@@ -236,11 +236,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
         // Query Syntax
-        
+        Products=(from prod in list1 select prod).Union(list2,pc).ToList();
       }
       else {
-        // Method Syntax
-        
+                // Method Syntax
+                Products = list1.Union(list2,pc).ToList();
       }
 
       ResultText = $"Total Products: {Products.Count}";

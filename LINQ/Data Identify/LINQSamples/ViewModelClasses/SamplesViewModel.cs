@@ -83,11 +83,11 @@ namespace LINQSamples
 
       if (UseQuerySyntax) {
                 // Query Syntax
-                value = (from num in numbers select num).Contains(6);
+                value = (from num in numbers select num).Contains(4);
       }
       else {
         // Method Syntax
-        value=numbers.Contains(6);
+        value=numbers.Contains(4);
       }
 
       ResultText = $"Is the number in collection? {value}";

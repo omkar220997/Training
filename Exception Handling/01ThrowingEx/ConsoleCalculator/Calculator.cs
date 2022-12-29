@@ -16,7 +16,16 @@ namespace ConsoleCalculator
 
             if (nonNullOperation == "/")
             {
-                return Divide(number1, number2);
+                try
+                {
+                    return Divide(number1, number2);
+
+                }
+                catch (DivideByZeroException ex)
+                {
+                    Console.WriteLine("...logging...");
+                    throw;
+                }
             }
             else
             {

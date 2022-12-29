@@ -168,7 +168,19 @@
 		   finally{} block which is always executed.
 		b) If exception is caught in catch{} block catch{} block is executed and after that finally{} block is executed, or if exception is not caught 
 		   in catch{} block then catch{} block not executed and directly finally{} block get executed.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Try-Catch-Finally:
+	1) When writing the catch{} block we have to pass a exception as a parameter and with the name of exception one variable is also have to pass
+	   and that variable will be set to the Exception instance because we are not catching a specific type of exception here. 
+	2) Exception Handling Good Practices:
+		a) Do not add a catch{} block that does nothing ot just rethrows means catch{} block should add some value,
+		   May just be to log the error. It is usually consider a bad practice to ignore exceptions.
+		b) Do not use exceptions for normal program flow logic.
+		c) Design code to avoid exceptions
+	        d) Use correct grammer in exception messages
+		e) Use finally{} blocks for cleanup.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+**
  
 
 

@@ -24,18 +24,12 @@ namespace ConsoleCalculator
                 int result = calculator.Calculate(number1, number2, operation);
                 DisplayResult(result);
             }
-            catch(ArgumentNullException ex)
+            catch (Exception ex)
             {
-                WriteLine($"Operation was not provided {ex}");
+                WriteLine($"Sorry, something went wrong. {ex}");
             }
-            catch(ArgumentOutOfRangeException ex)
-            {
-                WriteLine($"Operation is not supported {ex}");
-            }
-            catch(Exception ex)
-            {
-                WriteLine($"Sorry, something went wrong {ex}");
-            }
+            
+
 
             WriteLine("\nPress enter to exit.");
             ReadLine();

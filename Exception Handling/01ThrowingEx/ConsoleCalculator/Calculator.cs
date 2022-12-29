@@ -6,7 +6,7 @@ namespace ConsoleCalculator
     {
         public int Calculate(int number1, int number2, string operation)
         {
-            throw new ArgumentNullException(paramName: nameof(operation));
+            throw new ArgumentNullException(paramName: nameof(number1));
             string nonNullOperation =
                 operation ?? throw new ArgumentNullException(nameof(operation));
 

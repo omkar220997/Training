@@ -1,0 +1,205 @@
+					**Exception Handling **
+				=====================================
+   Exception Handling allows runtime errors to be managed in a structured way and can help improve stability
+	            and manageability of production application and systems.
+---------------------------------------------------------------------------------------------------------------------
+**Why Handle Errors?
+	1) Depending upon the type of error that occurred, we may be able to prevent the entire program from crashing, or the program
+ 	   is kind of database related then it can be prevent data ;oss or futher cascade failures.
+	2) Depending on the type of error we handling it may give us the opportunity to fix or retry the operation.
+	3) Error handling can also help us present more meaningful messages to the end user, and if we can't fix the problem 
+	   we can perform a graceful exit of the program rather than it just crashing, and this give us the opportunity to try
+	   and save any work in progress.
+	4) Handling errors also gives us the opportunity to log those errors, perhaps to a log file or some logging service or Api.
+	   So this log files can really very useful when we try to daignose the problem.
+	5) Good error handling code helps future maintainers understand what possible error condition may occur and how they can be handled.
+------------------------------------------------------------------------------------------------------------------------------------------------
+**Problems Occures Error handling Using Error codes:
+	1) Need to know all the return values that represent erros.
+	2) Need to remember to add an else if/ switch statement for every return value
+	3) Program flow will continue as normal even through errors occured and may cause furthur damage
+	4) May be harder to read than exception handling code
+	5) magic numbers with no semantic meaning harm readability
+	6) Need to add if/switch statements every time method is called to check return codes
+	7) Errors do not "bubble up" the call stack
+	8) Catch some error at a higher level
+	9) Catch some errord in a single place
+       10) How to deal with Out Of MMemory and Access Violations system errors
+       11) How to return an error from a Constructor because Constructor cannot return any value type.
+------------------------------------------------------------------------------------------------------------------------------------------
+** Why Exceptions?
+	1) When we use Exception for error handling we don't need to know all of the error codes.
+	2) Don't need if/switch statements everywhere method is called
+	3) More readable and less clutter
+	4) No magic numbers or constants
+	5) Exception can bubble up
+	6) Catch excfeption higher up or in one place
+	7) Generate exceptions from constructors
+	8) Exception can able to handle System errors
+-------------------------------------------------------------------------------------------------------------------------------------
+**What is an Exception?
+	1) Exceptions are, simply put, object instances which are inhert ultimately from the System.Exception base class.
+	2) We can generate our own exception by using the throw statement in C#.
+	3) Different exception classes represent differnt errors
+	4) Exception can contain additional error information as well and different exceptions can be handled by different error codes.
+	5) Exception can be defined by Standard exceptions provided by the .Net framework, Library authors or we can create our own Custom application exceptions
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+**What Exception represents?
+	1) An exception is any error condition or unexpected behavior that is encountered by an executing program.
+----------------------------------------------------------------------------------------------------------------------------
+**Exception Class Hierarchy:
+	1) At the root of this hierarchy we have System.Exception base class
+	2) From the Exception base class SystemException is inherit and it contain OutOfMemory and StackOverflow like Exceptions.
+	3) Exception class hierarchy as follow:					
+						System.Exception(base class)
+                                                          |
+				------------------------------------------------------------------
+				|			|			|	          |
+			  SystemException        ApplicationException   CustomExceptions  ArithmeticException
+				| 								   |
+             --------------------------------                                     -----------------------------------
+	     |	            |		    |                                     |                                  |
+        OutOfMemory    StackOverflow    Argument                          DivideByZeroException              OverflowException
+					    |
+			    -----------------------
+			    |	                   |
+		  ArgumentNullException   AgrumentOutOfRangeException
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+**System.Exception Base class:
+	1) The System.Exception class is the base class for all types of exceptions
+	2) System.Exception have some properties as follows:
+		a) Message:
+			   1) It is a String type property
+			   2) Describes the reason for the exception
+			   3) Writing for the developer who going to handling the excpetion
+			   4) Should completely describe the error
+		  	   5) Should describe how to correct error
+			   6) May sometimes be shown to end-User
+			   7) May sometimes be Logged
+			   8) Use correct grammer
+			   9) Don't include password/security/sensetive information in message
+		b) StackTrace:
+			   1) It is a String type property
+			   2) Information about call stack
+			   3) Trace of the method calls leading to exception
+			   4) Helps to show the execution path/flow that led to exception
+		c) Data:
+			   1) It is a IDictionary type data 
+			   2) It contain key/value pairs in which key is string type and value is a Object type
+			   3) We can store Arbitrary number and also Additional user-defined exception data as well
+			   4) Don't include password/security/sensetive information in keys/values and be careful of key conflicts
+		d) InnerException:
+			   1) It is a System.Exception type property
+			   2) Capture the preceding exception in new exception
+			   3) We can do Exception "wrapping" also
+		e) Source:
+			   1) It is a String type property
+			   2) It represent the Application/Object name that caused error
+			   3) Defaults to name of originating assembly
+		f) Hresult:
+			   1) It is a Int32 type property
+			   2) Represents HRESULT numerical value
+			   3) Often used with COM-interop code
+		g) HelpLink:
+ 			   1) It is a String type property
+			   2) Allow us to specify a link to an associated help file for this error
+			   3) This linki may be in the form of a Uniform resource Name(URN) or (URL)
+		h) TargetSite:
+			   1) It is a System.Reflection.MethodBase type property
+			   2) Information about Method that threw the current exception such as Name, Return type, public/private and etc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+**System.Exception Constructors:
+	1) Simplest Exception Constructor doesn't have any parameters and will get a default message property assigned and a null InnerException property.
+	2) Default constructor property is differnt differnt for each of the derived exceptions.
+	3) Constructor overload allows us to specify a string message and this maps to the message property of the Exception class
+	4) Common constructor overload allows us to specify message and also an InnerException, so this constructor is used for wrapping the constructor
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+**System.ApplicationException Guidlines:
+	1) An ApplicationException should not be thrown by your code
+	2) An ApplicationException exception should not br caught(unless you rethrow the original exception
+	3) Custom exception should not be derived from ApplicationException
+------------------------------------------------------------------------------------------------------------------
+**Commonly Encountered Exceptions:
+	1) Exception & SyastemException:
+		a) Exception: Represents execution errors
+		b) SystemException: Base class for exceptions in system exception namespace
+		c) Do not Throw this exceptions
+		d) Do not catch this exceptions(Except in top-level handlers)
+		e) Do not catch in framework code(unless rethrowing)
+	2) InvalidOperationException:
+		a) Thrown when the current state of the object is invalid for a specific method being called
+		b) Throw when your Object is in an inappropriate state when a method is called
+	3) ArgumentException:
+		a) ArgumentException is thrown when a method argument is invalid(base class)
+		b) ArgumentNullException thrown when a null is passed to a method argument and it cannot accpet nulls
+		c) ArgumentOutOfRangeException thrown when a method argument is outside of an allowable range 
+	4) NullReferenceException & IndexOutOfRangeException:
+		a) NullReferenceException is thrown when an attempt is made to dereference a null object reference
+		b) IndexOutOfRangeException is thrown when attempting to access an array/collection item that is outside its bounds
+		c) This two exceptions are reserved for runtime use and usually indicate a bug in the program.
+		d) Due to runtime we can throw this exceptions and to avoid this exception check arguments values when passing to methods
+	5) StackOverflowException:
+		a) Thrown when too many nested method calls cause the execution stack to overflow
+		b) This exception is reserved and thrown by runtime.
+		c) Do not throw explicitly
+		d) Do not catch the StackOverflowException because it is impossible to correct it
+	6) OutOfMemoryException:
+		a) Thrown when there is not enough memory to continue executing the program
+		b) This exception is reserved and thrown by runtime.
+		c) Do not throw explicitly
+----------------------------------------------------------------------------------------------------------------------------------------------------
+**Exception Handling:
+	1) First variation of try{} block:		
+		a) If we have a program and inside the program there is a Method A which calls Method B and B calls Method C, if an error occured in Method C
+	   	   and there is no any Error handling code then that error bubbled up to Method B, in Method B if there is also no error handling code then 
+	   	   error bubbled up to Method A and if Method A is root method of program then it will show error message box and crash the program.
+		b) If in above senario if we apply try-catch block in Method B then exception is catch and solved in Method B so, that error cannot bubbled 
+	   	   up to Method A and it prevent from Program crash.
+		c) When we writing try-catch block we have to write exception occuring statement inside the try{} block and inside the catch{} block we can write 
+	   	   the exception to catch that.
+		d) We can use multiple catch{} blocks for single try{} block but we have to write it from Most specific to least specific.
+	2) Second variation of try{} block:
+		a) In this variation when we write exception occuring statement inside the try{} block then instead of catch{} block we can
+		   write finally{} block and the code inside the finally{} block is always executed when control oleaves the try{} block
+		b) finally{} block is executed in both the conditions like if exception occured inside the try{} block finally{} block gets
+		   executed or exception is not occured in try{} block still finally{} block gets executed.
+	3) Third variation of try{} block:
+		a) There is a try{} block with exception occurring statement and then omne catch{} block to catch the exception and at last 
+		   finally{} block which is always executed.
+		b) If exception is caught in catch{} block catch{} block is executed and after that finally{} block is executed, or if exception is not caught 
+		   in catch{} block then catch{} block not executed and directly finally{} block get executed.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

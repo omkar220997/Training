@@ -24,15 +24,19 @@ namespace ConsoleCalculator
                 int result = calculator.Calculate(number1, number2, operation);
                 DisplayResult(result);
             }
-            catch(ArgumentNullException ex)
+            catch (ArgumentNullException ex) when(ex.ParamName=="operation")
             {
                 WriteLine($"Operation was not provided {ex}");
             }
-            catch(ArgumentOutOfRangeException ex)
+            catch (ArgumentNullException ex)
+            {
+                WriteLine($"An argument was null {ex}");
+            }
+            catch (ArgumentOutOfRangeException ex)
             {
                 WriteLine($"Operation is not supported {ex}");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 WriteLine($"Sorry, something went wrong {ex}");
             }
@@ -80,5 +84,3 @@ namespace ConsoleCalculator
 //{
 //    WriteLine($"Result is: {result}");
 //}
-
-

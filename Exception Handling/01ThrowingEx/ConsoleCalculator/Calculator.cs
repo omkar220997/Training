@@ -6,7 +6,8 @@ namespace ConsoleCalculator
     {
         public int Calculate(int number1, int number2, string operation)
         {
-            string nonNullOperation=
+            throw new ArgumentNullException(paramName: nameof(operation));
+            string nonNullOperation =
                 operation ?? throw new ArgumentNullException(nameof(operation));
 
             //if(operation is null)
@@ -30,7 +31,7 @@ namespace ConsoleCalculator
             }
             else
             {
-                throw new ArgumentOutOfRangeException(nameof(operation),"This Mathematical operator is not supported");
+                throw new ArgumentOutOfRangeException(nameof(operation), "This Mathematical operator is not supported");
                 //Console.WriteLine("Unknown operation.");
                 // 0;
             }
@@ -39,4 +40,3 @@ namespace ConsoleCalculator
         private int Divide(int number, int divisor) => number / divisor;
     }
 }
-

@@ -64,7 +64,7 @@
        20) Concat() combines two lists together , but it cannot skip the duplicates.
        21) For left outer join in method syntax we have to use the SelectMany() method to get the results.
        22) we can create groups of our result by GroupBy and also by using into and select.
-       23) 
+  
   
 
 

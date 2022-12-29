@@ -4,9 +4,14 @@ namespace ConsoleCalculator
 {
     public class Calculator
     {
+        private UnhandledExceptionEventHandler HandleException;
+
         public int Calculate(int number1, int number2, string operation)
         {
-            throw new ArgumentNullException(paramName: nameof(number1));
+            AppDomain currentAppDomain=AppDomain.CurrentDomain;
+            currentAppDomain.UnhandledException 
+                += new UnhandledExceptionEventHandler(HandleException);
+
             string nonNullOperation =
                 operation ?? throw new ArgumentNullException(nameof(operation));
 

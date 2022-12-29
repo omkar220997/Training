@@ -24,7 +24,7 @@ namespace ConsoleCalculator
                 int result = calculator.Calculate(number1, number2, operation);
                 DisplayResult(result);
             }
-            catch (ArgumentNullException ex) when(ex.ParamName=="operation")
+            catch (ArgumentNullException ex) when (ex.ParamName == "operation")
             {
                 WriteLine($"Operation was not provided {ex}");
             }
@@ -36,10 +36,10 @@ namespace ConsoleCalculator
             {
                 WriteLine($"Operation is not supported {ex}");
             }
-            catch (Exception ex)
-            {
-                WriteLine($"Sorry, something went wrong {ex}");
-            }
+            //catch (Exception ex)
+            //{
+            //    WriteLine($"Sorry, something went wrong {ex}");
+            //}
 
             finally
             {
@@ -51,6 +51,10 @@ namespace ConsoleCalculator
         }
 
         private static void DisplayResult(int result) => WriteLine($"Result is: {result}");
+        private static void HandleException(object sender, UnhandledExceptionEventArgs e)
+        {
+            WriteLine($"Sorry there was a problem and we need to close. Details: {e.ExceptionObject}");
+        }
     }
 }
 

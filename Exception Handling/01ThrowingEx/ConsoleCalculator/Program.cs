@@ -32,14 +32,20 @@ namespace ConsoleCalculator
             {
                 WriteLine($"An argument was null {ex}");
             }
-            catch (ArgumentOutOfRangeException ex)
+            catch (CalculationOperationNotSupportedExceptionp ex)
             {
-                WriteLine($"Operation is not supported {ex}");
+                WriteLine($"CalculationOperationNotSupportedExceptionp caught {ex.Operation}");
+                WriteLine(ex);
             }
-            //catch (Exception ex)
-            //{
-            //    WriteLine($"Sorry, something went wrong {ex}");
-            //}
+            catch(CalculationException ex)
+            {
+                WriteLine($"CalculationException caught");
+                WriteLine(ex);
+            }
+            catch (Exception ex)
+            {
+                WriteLine($"Sorry, something went wrong {ex}");
+            }
 
             finally
             {
@@ -51,10 +57,7 @@ namespace ConsoleCalculator
         }
 
         private static void DisplayResult(int result) => WriteLine($"Result is: {result}");
-        private static void HandleException(object sender, UnhandledExceptionEventArgs e)
-        {
-            WriteLine($"Sorry there was a problem and we need to close. Details: {e.ExceptionObject}");
-        }
+       
     }
 }
 

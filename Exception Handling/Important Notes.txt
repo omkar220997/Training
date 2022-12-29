@@ -179,9 +179,22 @@
 		c) Design code to avoid exceptions
 	        d) Use correct grammer in exception messages
 		e) Use finally{} blocks for cleanup.
+	3) To generate the exception we can use throw keyword and write the name of exception with new keyword
+	4) The use of finally{} is to clean up the unmanaged codes of our program.
+	5) Sometimes we want to catch the exception on one type and wrap it in differnt exception type.
+	6) Exception filters allows us to fine tune when a catch{} block executes by looking at the exception details as well as the type of the 
+	   exception itself.	
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-**
- 
+**Custom Exception:
+	1) Custom Exception can use only create custom exception types if they need to be caught and handled differently from existing predefined .NET exceptions.
+	2) Custom Exception can use only if building a library for use by other developers so consumers can react specifically to errors in your library.
+	3) Custom Exception can use only when interfacing with external API,DLL,Services etc.
+	4) You have to end your custom exception name by Exception, also implement standard three constructors and you can add additional 
+	   properties where needed.
+	5) Custom Exception can never inherit from ApplicationException instead you can inherit from System.Exception or other custom exception types.
+	6) Keep the number of custom exception types to a minimum.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 
 
 
 

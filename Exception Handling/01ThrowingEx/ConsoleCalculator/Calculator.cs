@@ -4,13 +4,12 @@ namespace ConsoleCalculator
 {
     public class Calculator
     {
-        private UnhandledExceptionEventHandler HandleException;
+      
 
         public int Calculate(int number1, int number2, string operation)
         {
-            AppDomain currentAppDomain=AppDomain.CurrentDomain;
-            currentAppDomain.UnhandledException 
-                += new UnhandledExceptionEventHandler(HandleException);
+       
+            
 
             string nonNullOperation =
                 operation ?? throw new ArgumentNullException(nameof(operation));
@@ -31,12 +30,14 @@ namespace ConsoleCalculator
                 {
                     Console.WriteLine("...logging...");
                     //throw;
-                    throw new ArithmeticException("An error occured during calculation.", ex);
+                    // throw new ArithmeticException("An error occured during calculation.", ex);
+                    throw new CalculationException("Exception" ,ex);
                 }
             }
             else
             {
-                throw new ArgumentOutOfRangeException(nameof(operation), "This Mathematical operator is not supported");
+                throw new CalculationOperationNotSupportedExceptionp(nonNullOperation);
+                //throw new ArgumentOutOfRangeException(nameof(operation), "This Mathematical operator is not supported");
                 //Console.WriteLine("Unknown operation.");
                 // 0;
             }

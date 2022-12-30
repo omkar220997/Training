@@ -47,6 +47,18 @@ namespace GameConsoleApp
             {
                 Console.WriteLine(player.DateOfBirth);
             }
+            if(player.IsPlayerNew is null)
+            {
+                Console.WriteLine("Player's new status is Unknown...");
+            }
+            else if(player.IsPlayerNew == true)
+            {
+                Console.WriteLine("Player is new to game");
+            }
+            else
+            {
+                Console.WriteLine("Player is old for the game");
+            }
         }
     }
 }

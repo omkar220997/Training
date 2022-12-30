@@ -12,15 +12,17 @@ namespace GameConsoleApp
         // int and DateTime is struct so it is value type
 
         public string PlayerName { get; set; }
-        public Nullable<int> DaysSinceLastLogin { get; set; }
-        public Nullable<DateTime> DateOfBirth { get; set; }
-        public PlayerCharacter()
-        {
+        public int? DaysSinceLastLogin { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+        public bool? IsPlayerNew { get; set; }
+
+        //public PlayerCharacter()
+        //{
             //DateOfBirth=DateTime.MinValue; //Magic Number
             //DaysSinceLastLogin= -1;  //Magic Number
 
-            DateOfBirth = null;
-            DaysSinceLastLogin = null;
-        }
+            //DateOfBirth = null;
+            //DaysSinceLastLogin = null;
+        //}
     }
 }

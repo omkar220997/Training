@@ -10,7 +10,7 @@ namespace GameConsoleApp
     {
         public static void Write(PlayerCharacter player)
         {
-            Console.WriteLine(player.PlayerName);
+            //Console.WriteLine(player.PlayerName);
             //Here we are using -1 as a value to represent the DaysSinceLastLogin as a null so -1 is a Magic Number.
             //if(player.DaysSinceLastLogin== -1)
             //{
@@ -31,6 +31,25 @@ namespace GameConsoleApp
             //{
             //    Console.WriteLine(player.DateOfBirth);
             //}
+            if (player.PlayerName == null)
+            {
+                Console.WriteLine("Player name is not assigned");
+            }
+            else if (String.IsNullOrEmpty(player.PlayerName))
+            {
+                Console.WriteLine("Player name is Empty");
+
+            }
+            else if (String.IsNullOrWhiteSpace(player.PlayerName))
+            {
+                Console.WriteLine("Player name Contain white spaces");
+
+            }
+            else
+            {
+                Console.WriteLine(player.PlayerName);
+            }
+
             if (player.DaysSinceLastLogin == null)
             {
                 Console.WriteLine("No value for DaysSinceLastLogin");
@@ -39,6 +58,7 @@ namespace GameConsoleApp
             {
                 Console.WriteLine(player.DaysSinceLastLogin);
             }
+
             if (player.DateOfBirth == null)
             {
                 Console.WriteLine("No Date of Birth specified");
@@ -47,11 +67,12 @@ namespace GameConsoleApp
             {
                 Console.WriteLine(player.DateOfBirth);
             }
-            if(player.IsPlayerNew is null)
+
+            if (player.IsPlayerNew is null)
             {
                 Console.WriteLine("Player's new status is Unknown...");
             }
-            else if(player.IsPlayerNew == true)
+            else if (player.IsPlayerNew == true)
             {
                 Console.WriteLine("Player is new to game");
             }

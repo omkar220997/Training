@@ -49,7 +49,16 @@ namespace GameConsoleApp
             {
                 Console.WriteLine(player.PlayerName);
             }
-            int days = player.DaysSinceLastLogin.GetValueOrDefault(0);
+
+
+            //int days = player.DaysSinceLastLogin.GetValueOrDefault(0);
+
+            //Conditional Operator:
+            //int days=player.DaysSinceLastLogin.HasValue ? player.DaysSinceLastLogin.Value : -1;
+
+            //Null-coalescing Operator:
+            int days = player.DaysSinceLastLogin ?? -1;
+
             Console.WriteLine($"{days} since last login");
 
             //if (player.DaysSinceLastLogin.HasValue)

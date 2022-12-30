@@ -12,8 +12,8 @@ namespace GameConsoleApp
         {
             var player = new PlayerCharacter();
             player.PlayerName = "Omkar Kadam";
-            player.DaysSinceLastLogin = 22;
-            player.DateOfBirth = new DateTime(1997, 11, 14);
+            //player.DaysSinceLastLogin = 22;
+            //player.DateOfBirth = new DateTime(1997, 11, 14);
 
             PlayerDisplayer.Write(player);
             Console.ReadLine();

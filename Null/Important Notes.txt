@@ -1,0 +1,80 @@
+						**NULLS**
+					=========================
+	1) A NullReferenceException exception is thrown when you try to access a member on a type whose value is null.
+	2) A software design pattern that uses object-orientation to remove or reduce the amount of null reference exceptions.
+-------------------------------------------------------------------------------------------------------------------------------
+**Reference and value Types:
+	1) Value Type:
+		a) If we want ot create our own value type we create a struct.
+		b) Instances of value types are independent instances or copies of that information.
+		c) When we make a change in value type it doesn't affect other copies of that value type.
+		d) The value is the information.
+		e) The value type doesn,t have the reference and so it cannot be null.
+		f) Value type cannot be null so we don't need to add additional null checking code.
+	2) Reference Type: 
+		a) If we want ot create our own reference type we create a class.
+		b) Instances of reference types are single shared instance pointed to by multiple references.
+		c) If we make change in reference type it will affect all references pointint to it.
+		d) The reference points to the information.
+		e) While working with reference type reference may in fact point to nothing or null.
+		f) In reference type we have to add additional null checking code to prevent the NullReferenceException.
+-------------------------------------------------------------------------------------------------------------------------------
+**NullReferenceException:
+	1) A NullReferenceException exception is thrown when you try to access a member on a type whose value is null.
+	2) When we try get/set Property, Call method or we try get/set field on null
+	   instance we will get a NullReferenceException.
+	3) If we wan to check the null value then we can use == or != operator, alos you can use the pattern matching like
+	   "xyz is null" or "xyz is not null".
+-----------------------------------------------------------------------------------------------------------------------------
+**Magic Number:
+	1) The value types are cannot be null but if we have such kind of condition where we have to make value types null
+	   so instead we might choose to use a concept called Magic Numbers.
+	2) A magic number is eesentialoly an arbitrary value that we decide represents a null value.
+---------------------------------------------------------------------------------------------------------------------------
+**Nullable<T>:
+	1) Instead of using Magic Number to make value types null we can use Nullable<T> struct to create new 
+	   nullable value types.
+	2) A nullable value type is an instance of the System.Nullable<T> struct. A nullable value type can represent
+	   all the values of the value type T, plus an additional null value.
+	3) Instead of writing Nullable<T> we can simply write ? in front of type e.g. 'T?'.
+	4) We dont't need to explicitly write value is null because the default value of Nullable<T> is null.
+	5) Properties and methods of Nullable<t> are;
+		a) .HasValue: Non- nullable Boolean and it will be set to false if the nullable value types value is currently
+		              set to null, otherwise it will return to true.
+		b) .Value: Once we have determine that the nullable value type is not set to null we can acess the underlying 
+			   value with the Value property.If we use value property with HasVlaue and if HasVGalue is false 
+			   then we get runtime error.
+		c) .GetValueOrDefault(): When we call this method, it's going to check whether or not the nullable value type
+					 is set to null. If it is not set to null it give us the underlying value and if set to null
+					 it will give us default value of type.
+					 We can also overload this method by default so we can set the default value for that type. 
+	
+		
+		    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 

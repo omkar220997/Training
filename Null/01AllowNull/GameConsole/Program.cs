@@ -47,15 +47,9 @@ namespace GameConsole
             //    Console.WriteLine($"could not parse {badParse}");
             //}
 
-            var names = Array.Empty<string>();
-            if(TryGetFirst<string>(names, out var foundName))
-            {
-                Console.WriteLine(foundName.Length);
-            }
-            else
-            {
-                Console.WriteLine($"Not found { foundName.Length}");
-            }
+
+            //Console.WriteLine(ConvertToUpperCase(null).Length);
+            Console.WriteLine(ConvertToUpperCase("Omkar").Length);
 
             Console.ReadLine();
         }
@@ -92,6 +86,16 @@ namespace GameConsole
             }
             foundItem = default;
             return false;
+        }
+
+        [return: NotNullIfNotNull("s")]
+        static string? ConvertToUpperCase(string? s)
+        {
+            if(s is null)
+            {
+                return null;
+            }
+            return s.ToUpperInvariant();
         }
     }
 }

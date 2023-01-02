@@ -8,7 +8,7 @@ namespace GameConsoleApp
 {
     internal static class PlayerDisplayer
     {
-        public static void Write(PlayerCharacter player)
+        public static void Write(PlayerCharacter players)
         {
             //Console.WriteLine(player.PlayerName);
             //Here we are using -1 as a value to represent the DaysSinceLastLogin as a null so -1 is a Magic Number.
@@ -31,23 +31,23 @@ namespace GameConsoleApp
             //{
             //    Console.WriteLine(player.DateOfBirth);
             //}
-            if (player.PlayerName == null)
+            if (players is null)
             {
                 Console.WriteLine("Player name is not assigned");
             }
-            else if (String.IsNullOrEmpty(player.PlayerName))
+            else if (String.IsNullOrEmpty(players.PlayerName))
             {
                 Console.WriteLine("Player name is Empty");
 
             }
-            else if (String.IsNullOrWhiteSpace(player.PlayerName))
+            else if (String.IsNullOrWhiteSpace(players.PlayerName))
             {
                 Console.WriteLine("Player name Contain white spaces");
 
             }
             else
             {
-                Console.WriteLine(player.PlayerName);
+                Console.WriteLine(players.PlayerName);
             }
 
 
@@ -57,7 +57,7 @@ namespace GameConsoleApp
             //int days=player.DaysSinceLastLogin.HasValue ? player.DaysSinceLastLogin.Value : -1;
 
             //Null-coalescing Operator:
-            int days = player.DaysSinceLastLogin ?? -1;
+            int days = players.DaysSinceLastLogin ?? -1;
 
             Console.WriteLine($"{days} since last login");
 
@@ -70,20 +70,20 @@ namespace GameConsoleApp
             //    Console.WriteLine("No value for DaysSinceLastLogin");
             //}
 
-            if (player.DateOfBirth == null)
+            if (players.DateOfBirth == null)
             {
                 Console.WriteLine("No Date of Birth specified");
             }
             else
             {
-                Console.WriteLine(player.DateOfBirth);
+                Console.WriteLine(players.DateOfBirth);
             }
 
-            if (player.IsPlayerNew is null)
+            if (players.IsPlayerNew is null)
             {
                 Console.WriteLine("Player's new status is Unknown...");
             }
-            else if (player.IsPlayerNew == true)
+            else if (players.IsPlayerNew == true)
             {
                 Console.WriteLine("Player is new to game");
             }

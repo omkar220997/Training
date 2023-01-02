@@ -84,11 +84,51 @@
 	4) All calling client code needs to understand on what "do nothing" behaviour is
 	5) Usually not used for error handling
 	6) can hide exceptions and make fault finding harder
+	7) Don't try to remove all null values from your code instead express your intent
+	8) When you are working with non nullable it is not consider to be our code is completely null safe.
+	9) 
 ----------------------------------------------------------------------------------------------------------------------------------------
 **Null Features:
 	1) Use of Null Directives to convert Nullable references to Non-nullable references.
-	2) 
-	
+	2) Write nullable element in csproj file to make entire project null checking and if we want some line to be not null checked 
+	   we can use the #nullable disable and #nullable enable with that lines to make that lines free from null checkings.
+	3) If we make a entire project non nullable reference and we want to make varible as a nullable reference then me just add a '?'
+	   to a variable type which makes that variable nullable reference type.
+	4) We can also work with Generics along with nullable and Non nullable. In non nullable collection we can only store the non nullable type
+	   but in nullable collction we can store both nullable and non nullable types.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+**Nullable-describing Attributes:
+	1) Attributes that you can apply to your code when using non nullable reference types to further express your design intent.
+	   These attributes are understood by the compiler and enable improved comile-time checking of null relaterd intent violations.
+	2) Using these attributes only makes sense when you have the new nullable features enabled.
+	3) There are five types of attributes:
+		a) Precondition:
+			a.1) AllowNull
+			a.2) DisallowNull
+		b) Postcondition:
+			b.1) MaybeNull
+			b.2) NotNull
+		c) Conditional postcondition
+			c.1) MaybeNullWhen
+			c.2) NotNullWhen
+			c.3) NotNullNotNull
+		d) Constructor helper methods
+			d.1) MemberNotNull
+			d.2) MemberNotNullWhen
+		e) Unreachable code
+			e.1) DoesNotReturn
+			e.2) DoesNotReturnIf
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+**Precondition Attributes:
+	1) Precondition allow us to express nullability intent before an action takes place.
+	a.1) [AllowNull]: You apply this attribute to a field, a method parametere or a property. When you add this attribute to a property,
+			  it only applies to the property setter value. The AllowNull atribute allows you to express the intent that a non nullable 
+			  type is normally not null, but may occasionally actually be null.
+	a.2) [DisallowNull]: You apply this attribute to a field, a method parametere or a property. When you add this attribute to a property,
+			     it only applies to the property setter value. The DisallowNull atribute allows you to express the design intent that a nullable 
+			     type may be null.    
+
+
 	
 
 		    

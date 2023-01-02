@@ -19,19 +19,21 @@ namespace GameConsoleApp
             //player.DateOfBirth = new DateTime(1997, 11, 14);
             //player.IsPlayerNew= true;
             //Console.WriteLine(days);
-            //PlayerDisplayer.Write(player);
 
-            //PlayerCharacter[] players = new PlayerCharacter[3]
-            //{
-            //    new PlayerCharacter {PlayerName = "Omkar" },
-            //    new PlayerCharacter(),
-            //    null
+            PlayerCharacter[] players = new PlayerCharacter[3]
+            {
+                new PlayerCharacter {PlayerName = "Omkar" },
+                new PlayerCharacter{PlayerName="Pankaj" },
+                null
 
-            //};
-            PlayerCharacter[] players = null;
-            string player1 = players?[0]?.PlayerName;
-            string player2 = players?[1]?.PlayerName;
-            string player3 = players?[2]?.PlayerName;
+            };
+            
+            //string player1 = players?[0]?.PlayerName;
+            //string player2 = players?[1]?.PlayerName;
+            //string player3 = players?[2]?.PlayerName;
+            PlayerDisplayer.Write(players[0]);
+            PlayerDisplayer.Write(players[1]);
+            PlayerDisplayer.Write(players[2]);
 
             Console.ReadLine();
         }

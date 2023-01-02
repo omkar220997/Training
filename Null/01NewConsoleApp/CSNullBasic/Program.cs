@@ -5,7 +5,7 @@
         private static void Main(string[] args)
         {
 
-            string message = null;
+            string? message = null;
 
             Console.WriteLine(message);
 

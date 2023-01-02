@@ -50,7 +50,7 @@
 					 We can also overload this method by default so we can set the default value for that type.
 	6) When we compare two variables with same value it gives true but in Nullable when we declare nullable variable if both value 
 	   null then it show true, one value is null and other value is not null then it show false.
-	7) Conversion between the Non-Nullable to Nullable doesn't require the explicit conversion it is implicit conversion but for \
+	7) Conversion between the Non-Nullable to Nullable doesn't require the explicit conversion it is implicit conversion but for 
 	   conversion of Nullable to Non-nullable we have to perform explicit conversion.
 ---------------------------------------------------------------------------------------------------------------------------------------
 **C# Null-related Operators:
@@ -73,6 +73,21 @@
 		-Simplify production and test code
 		-Fewer branches in program control flow
 		-Reduce maintenance overheads, "do nothing" code exist in one centralized place
+	5) We can apply Object Pattern by :
+		a) Using Interface.
+		b) Using Abstract Base class.
+------------------------------------------------------------------------------------------------------------------------------------------
+**Considerations of Null Object Pattern:
+	1) Can be implemented in older versions of C#
+	2) May only be worthwhile if there are many repetitive null checks throughout codebase
+	3) All developers need to be aware that the null object pattern is in use
+	4) All calling client code needs to understand on what "do nothing" behaviour is
+	5) Usually not used for error handling
+	6) can hide exceptions and make fault finding harder
+----------------------------------------------------------------------------------------------------------------------------------------
+**Null Features:
+	1) Use of Null Directives to convert Nullable references to Non-nullable references.
+	2) 
 	
 	
 

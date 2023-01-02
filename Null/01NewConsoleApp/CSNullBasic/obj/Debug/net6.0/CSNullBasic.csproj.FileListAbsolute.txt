@@ -1,0 +1,15 @@
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\bin\Debug\net6.0\CSNullBasic.exe
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\bin\Debug\net6.0\CSNullBasic.deps.json
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\bin\Debug\net6.0\CSNullBasic.runtimeconfig.json
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\bin\Debug\net6.0\CSNullBasic.dll
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\bin\Debug\net6.0\CSNullBasic.pdb
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\CSNullBasic.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\CSNullBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\CSNullBasic.AssemblyInfoInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\CSNullBasic.AssemblyInfo.cs
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\CSNullBasic.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\CSNullBasic.dll
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\refint\CSNullBasic.dll
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\CSNullBasic.pdb
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\CSNullBasic.genruntimeconfig.cache
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NewConsoleApp\CSNullBasic\obj\Debug\net6.0\ref\CSNullBasic.dll

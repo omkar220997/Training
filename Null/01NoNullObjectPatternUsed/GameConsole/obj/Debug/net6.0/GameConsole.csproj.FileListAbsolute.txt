@@ -1,0 +1,15 @@
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\bin\Debug\net6.0\GameConsole.exe
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\bin\Debug\net6.0\GameConsole.deps.json
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\bin\Debug\net6.0\GameConsole.runtimeconfig.json
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\bin\Debug\net6.0\GameConsole.dll
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\bin\Debug\net6.0\GameConsole.pdb
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\GameConsole.csproj.AssemblyReference.cache
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\GameConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\GameConsole.AssemblyInfoInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\GameConsole.AssemblyInfo.cs
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\GameConsole.csproj.CoreCompileInputs.cache
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\GameConsole.dll
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\refint\GameConsole.dll
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\GameConsole.pdb
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\GameConsole.genruntimeconfig.cache
+C:\Users\kada_omk\Desktop\Training\C#\Null\01NoNullObjectPatternUsed\GameConsole\obj\Debug\net6.0\ref\GameConsole.dll

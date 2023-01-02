@@ -45,11 +45,37 @@
 			   value with the Value property.If we use value property with HasVlaue and if HasVGalue is false 
 			   then we get runtime error.
 		c) .GetValueOrDefault(): When we call this method, it's going to check whether or not the nullable value type
-					 is set to null. If it is not set to null it give us the underlying value and if set to null
-					 it will give us default value of type.
-					 We can also overload this method by default so we can set the default value for that type. 
+					 is set to null. If it is not set to null it give us the underlying value and if set 
+					 to  null it will give us default value of type.
+					 We can also overload this method by default so we can set the default value for that type.
+	6) When we compare two variables with same value it gives true but in Nullable when we declare nullable variable if both value 
+	   null then it show true, one value is null and other value is not null then it show false.
+	7) Conversion between the Non-Nullable to Nullable doesn't require the explicit conversion it is implicit conversion but for \
+	   conversion of Nullable to Non-nullable we have to perform explicit conversion.
+---------------------------------------------------------------------------------------------------------------------------------------
+**C# Null-related Operators:
+	1)Conditional Operator:  (?:)
+	2) Null-coalescing operator:  (??)
+	3) Null-coalescing assignment operator: (??=)
+	4) Null-conditional operator: (?.)
+	5) Null-conditional operator with arrays: (?[])
+	6) Null-forgiving operator: (!)
+---------------------------------------------------------------------------------------------------------------------------------------
+**Elimininating Null Reference Exceptions with the Null Object Pattern:
+	1) With the help of Null object pattern we can eliminate null reference exception and also reduce the amount of repetitive
+	   checking code.
+	2) A software design pattern that uses object-orientation to remove or reduce the amount of null reference exception is called
+	   Null Object Pattern.
+	3) By implementing the pattern, the burden of repetitive null checking code can also be reduced in the codebase.
+	4) By implimenting the Null Object Pattern 
+		-Reduce incidences of runtime null reference exceptions
+		-Reduce the amount of repetitive null checking code we have to write
+		-Simplify production and test code
+		-Fewer branches in program control flow
+		-Reduce maintenance overheads, "do nothing" code exist in one centralized place
 	
-		
+	
+
 		    
 
 

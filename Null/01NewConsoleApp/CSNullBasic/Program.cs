@@ -1,19 +1,16 @@
-﻿using System;
-
-namespace CSNullBasic
+﻿namespace CSNullBasic
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-#nullable enable
-            string message= null;
-#nullable disable
+
+            string message = null;
+
             Console.WriteLine(message);
 
             Console.WriteLine("Press Enter to end...");
             Console.ReadLine();
         }
     }
-
 }

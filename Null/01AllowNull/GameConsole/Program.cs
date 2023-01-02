@@ -27,25 +27,36 @@ namespace GameConsole
             //string? firstNameWithZIn = FindFirst<string>(names, name => names.Contains("z"));
             //Console.WriteLine(firstNameWithZIn?.Length);
 
-            string badParse = "Name- Omkar";
-            string goodParse = "Name: Omkar kadam";
+            //string badParse = "Name- Omkar";
+            //string goodParse = "Name: Omkar kadam";
 
-            if(PlayerCharacter.TryParse(badParse, out var p1))
+            //if(PlayerCharacter.TryParse(badParse, out var p1))
+            //{
+            //    Console.WriteLine(p1.Name);
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"could not parse {badParse}");
+            //} 
+            //if(PlayerCharacter.TryParse(goodParse, out var p2))
+            //{
+            //    Console.WriteLine(p2.Name);
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"could not parse {badParse}");
+            //}
+
+            var names = Array.Empty<string>();
+            if(TryGetFirst<string>(names, out var foundName))
             {
-                Console.WriteLine(p1.Name);
+                Console.WriteLine(foundName.Length);
             }
             else
             {
-                Console.WriteLine($"could not parse {badParse}");
-            } 
-            if(PlayerCharacter.TryParse(goodParse, out var p2))
-            {
-                Console.WriteLine(p2.Name);
+                Console.WriteLine($"Not found { foundName.Length}");
             }
-            else
-            {
-                Console.WriteLine($"could not parse {badParse}");
-            }
+
             Console.ReadLine();
         }
 
@@ -70,6 +81,17 @@ namespace GameConsole
                 }
             }
             return default;
+        }
+
+        static bool TryGetFirst<T>(IEnumerable<T> items, [MaybeNullWhen(false)]out T foundItem)
+        {
+            if (items.Any())
+            {
+                foundItem= items.First();
+                return true;
+            }
+            foundItem = default;
+            return false;
         }
     }
 }

@@ -25,6 +25,26 @@ namespace GameConsole
         public DateTime? DateOfBirth { get; set; }
         public bool? IsNoob { get; set; }
 
+        public static bool TryParse(string input, [NotNullWhen(true)] out PlayerCharacter? player)
+        {
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                player = null;
+                return false;
+            }
+            if (!input.StartsWith("Name:"))
+            {
+                player = null;
+                return false;
+            }
+
+            string parsedName = input.Split(':')[1];
+            player= new PlayerCharacter { Name= parsedName };
+            return true;
+        }
+
+
+
         public static string GenerateName()
         {
             var names = new string[] { "Omkar", "Pankaj", "Shubham" };

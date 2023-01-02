@@ -121,13 +121,40 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 **Precondition Attributes:
 	1) Precondition allow us to express nullability intent before an action takes place.
-	a.1) [AllowNull]: You apply this attribute to a field, a method parametere or a property. When you add this attribute to a property,
-			  it only applies to the property setter value. The AllowNull atribute allows you to express the intent that a non nullable 
-			  type is normally not null, but may occasionally actually be null.
-	a.2) [DisallowNull]: You apply this attribute to a field, a method parametere or a property. When you add this attribute to a property,
-			     it only applies to the property setter value. The DisallowNull atribute allows you to express the design intent that a nullable 
-			     type may be null.    
+	a.1) [AllowNull]: 
+		You apply this attribute to a field, a method parametere or a property. When you add this attribute to a property,
+		it only applies to the property setter value. The AllowNull atribute allows you to express the intent that a non nullable 
+		type is normally not null, but may occasionally actually be null.
+	a.2) [DisallowNull]: 
+		You apply this attribute to a field, a method parametere or a property. When you add this attribute to a property,
+		it only applies to the property setter value. The DisallowNull atribute allows you to express the design intent that a nullable 
+		type may be null. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Postcondition attributes:
+	1) Postcondition attributes allow you to express nullability intent after an action takes place.
+	b.1) [NotNull]:
+		You apply this attribute to a field, a method parametere, a property or return value of methods. When you add this attribute to a property,
+		it only applies to the property getter value. A NotNull attribute allows you to express a nullable type whose value will never actually be null.
+	b.2) [MaybeNull]:
+		You apply this attribute to a field, a method parametere, a property or return value of methods. When you add this attribute to a property,
+		it only chekcs to the property getter value. A MaybeNull attribute allows you to express a non nullable type whose value may actually be set
+		to null in some cases.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Conditional Postcondition attributes:
+	1) These attributes express nullabiltiy intent after an action takes place, but instead they are based on some condition.
+	c.1) [NotNullWhen]: 
+		This attribute is applicable to method parameter and helps compiler to understand when a nullable parameter won't be null. The nullability
+		expressed by this attribute is conditional on the method's Boolean return value. 
+	c.2) [MaybeNullWhen]:
+		This attribute is applicable to method parameter and helps compiler to understand that a non nullable type might actually be null. This attribute 
+		is also conditional on the method's Boolean return value.
+	c.3) [NotNullIfNotNull]: 
+		These attribute is applicable to method parameter , property or return value. This helps compiler to understand whena nullable type will actually 
+		have a value. This attribute is conditional ona method's argument not being null.
+		
 
+	
+		  
 
 	
 

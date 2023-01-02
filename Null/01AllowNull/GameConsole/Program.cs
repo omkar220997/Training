@@ -19,13 +19,33 @@ namespace GameConsole
             //p1.Bio = bio;
             //Console.WriteLine(p1.Bio);
 
-            var names = new string[]
-            {
-                "Omkar","Pankaj","Shubham","Sagar"
-            };
+            //var names = new string[]
+            //{
+            //    "Omkar","Pankaj","Shubham","Sagar"
+            //};
 
-            string? firstNameWithZIn = FindFirst<string>(names, name => names.Contains("z"));
-            Console.WriteLine(firstNameWithZIn?.Length);
+            //string? firstNameWithZIn = FindFirst<string>(names, name => names.Contains("z"));
+            //Console.WriteLine(firstNameWithZIn?.Length);
+
+            string badParse = "Name- Omkar";
+            string goodParse = "Name: Omkar kadam";
+
+            if(PlayerCharacter.TryParse(badParse, out var p1))
+            {
+                Console.WriteLine(p1.Name);
+            }
+            else
+            {
+                Console.WriteLine($"could not parse {badParse}");
+            } 
+            if(PlayerCharacter.TryParse(goodParse, out var p2))
+            {
+                Console.WriteLine(p2.Name);
+            }
+            else
+            {
+                Console.WriteLine($"could not parse {badParse}");
+            }
             Console.ReadLine();
         }
 

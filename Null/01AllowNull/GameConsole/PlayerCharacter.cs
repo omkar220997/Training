@@ -13,6 +13,7 @@ namespace GameConsole
             set => _name = value ?? GenerateName(); 
         }
         private string? _bio;
+        [DisallowNull]
         public string? Bio 
         { 
             get=> _bio; 

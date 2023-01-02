@@ -1,7 +1,7 @@
 ﻿namespace GameConsole
 {
-    public class DiamondSkinDefence : ISpecialDefence
+    public class DiamondSkinDefence : SpecialDefence
     {
-        public int CalculateDamageReduction() => 1;
+        public override int CalculateDamageReduction() => 1;
     }
 }

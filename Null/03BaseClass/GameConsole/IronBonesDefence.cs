@@ -1,7 +1,7 @@
 ﻿namespace GameConsole
 {
-    public class IronBonesDefence : ISpecialDefence
+    public class IronBonesDefence : SpecialDefence
     {
-        public int CalculateDamageReduction() => 5;
+        public override int CalculateDamageReduction() => 5;
     }
 }

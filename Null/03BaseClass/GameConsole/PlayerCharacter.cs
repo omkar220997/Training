@@ -4,21 +4,19 @@ namespace GameConsole
 {
     class PlayerCharacter
     {
-        private readonly ISpecialDefence _specialDefence;
+        private readonly SpecialDefence _specialDefence;
 
         public string Name { get; set; }
         public int Health { get; private set; } = 100;
 
-        public PlayerCharacter(ISpecialDefence specialDefence)
+        public PlayerCharacter(SpecialDefence specialDefence)
         {
             _specialDefence = specialDefence;
         }
 
         public void Hit(int damage)
         {
-            int damageReduction = 0;
-
-            damageReduction = _specialDefence.CalculateDamageReduction();
+            int damageReduction = _specialDefence.CalculateDamageReduction();
 
             int totalDamageTaken = Math.Abs(damage - damageReduction);
 

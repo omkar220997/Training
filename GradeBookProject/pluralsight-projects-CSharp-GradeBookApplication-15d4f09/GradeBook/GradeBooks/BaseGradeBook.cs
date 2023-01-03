@@ -117,7 +117,7 @@ namespace GradeBook.GradeBooks
             switch (letterGrade)
             {
                 case 'A':
-                    if(IsWeighted==true && studentType == StudentType.Honors || studentType == StudentType.DualEnrolled)
+                    if(IsWeighted==true && (studentType == StudentType.Honors || studentType == StudentType.DualEnrolled))
                     {
                         return 5;
                     }
@@ -126,7 +126,8 @@ namespace GradeBook.GradeBooks
                     return 4;
                     }
                 case 'B':
-                    if (IsWeighted == true && studentType == StudentType.Honors || studentType == StudentType.DualEnrolled)
+                    if (IsWeighted == true && (studentType == StudentType.Honors || studentType == StudentType.DualEnrolled))
+
                     {
                         return 4;
                     }
@@ -135,7 +136,8 @@ namespace GradeBook.GradeBooks
                         return 3;
                     }
                 case 'C':
-                    if (IsWeighted == true && studentType == StudentType.Honors || studentType == StudentType.DualEnrolled)
+                    if (IsWeighted == true && (studentType == StudentType.Honors || studentType == StudentType.DualEnrolled))
+
                     {
                         return 3;
                     }
@@ -144,7 +146,8 @@ namespace GradeBook.GradeBooks
                         return 2;
                     }
                 case 'D':
-                    if (IsWeighted == true && studentType == StudentType.Honors || studentType == StudentType.DualEnrolled)
+                    if (IsWeighted == true && (studentType == StudentType.Honors || studentType == StudentType.DualEnrolled))
+
                     {
                         return 2;
                     }
@@ -153,7 +156,8 @@ namespace GradeBook.GradeBooks
                         return 1;
                     }
                 case 'F':
-                    if (IsWeighted == true && studentType == StudentType.Honors || studentType == StudentType.DualEnrolled)
+                    if (IsWeighted == true && (studentType == StudentType.Honors || studentType == StudentType.DualEnrolled))
+
                     {
                         return 1;
                     }

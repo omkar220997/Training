@@ -40,14 +40,15 @@ namespace GradeBook.UserInterfaces
                 return;
             }
 
-            var name = parts[2];
+            var name = parts[1];
+            var type = parts[2].ToLower();
             bool isWeighted = Convert.ToBoolean(parts[3]);
-            if (name == "standard")
+            if (type == "standard")
             {
                 StandardGradeBook gradeBook = new StandardGradeBook(name,isWeighted);
 
             }
-            else if (name == "ranked")
+            else if (type == "ranked")
             {
                 RankedGradeBook gradeBook= new RankedGradeBook(name, isWeighted);
             }

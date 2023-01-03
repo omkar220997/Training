@@ -151,6 +151,29 @@
 	c.3) [NotNullIfNotNull]: 
 		These attribute is applicable to method parameter , property or return value. This helps compiler to understand whena nullable type will actually 
 		have a value. This attribute is conditional ona method's argument not being null.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Constructor helper methods:
+	1) These attributes allow you to express the nullability intent if you are making use of constructor helper methods.
+	d.1) [MemberNotNull]:
+		This attribute is applied to a method or property of method. This attribute helps compiler understand when non nullable fields and properties have
+		been initialized outside the constructor.
+	d.2) [MemberNotNullWhen]:
+		This attribute is applied to a method or property of method. This attribute is conditional on the constructor helper method's Boolean return value.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Unreachable code:
+	1) These attributes essentially help the compiler understand that a method never returns. 
+	e.1) [DoesNotReturn]:
+		This attribute is valid on methods and not conditional on parameter values or return values.
+	e.2) [DoesNotReturnIf]:
+		This attribute is valid on a parameter and conditional on a passed in Boolean parameter value
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Considerations:
+	1) Adding attributes to a projectn is extra work and effort which have to take.
+	2) Before adding attributes to project we have to discuss risk/reward/benifits with our team and managment
+	3) All developers in team will need to be trained on the use of these attributes
+	4) All developers in team will nedd to commit to adding attributes
+============================================================================================================================================================================	 
+
 		
 
 	
